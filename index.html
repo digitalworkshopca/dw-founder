@@ -1,0 +1,1821 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="DW Founder" />
+<meta name="theme-color" content="#4aa3ff" />
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAMcklEQVR4nO3d344dtR0H8K+P9g71FXibplIISGmQqhCKSJtGKg1IPAkXCRdA0lSigaYqNEqbirRv01dAXA8XZz074/HfsX8ztuf7veju2md+M5p+Ys7O2sfq+tcDfFHOHxY/zvs8nUbXMG3w1Uysi9i6yvMCa7Nw3WDNlLrbX+uSzIb34MJznBTmwWyIqRlR19lAzJte6zB7mQrexti68z7HvyQn6MKYB+txxDxr7ACzre5gb06vG8IMOEAXxDz/1+ooRMzdYjYzWEsUwgxYQBfCPHtbQczEbDQPY1NBzIABugDmxW+YxEzMnrr6raizdApmYAI6E7P1UQkxE3Nk3cH20lTMAHByV/EfCBBzTl1itvYtf+dKwAwFnIjZ30jM/gjUHXz3IPTe5MJsCB4IQCk7ZOtxxDxrJOaoe6D/2OYbb611T7ZXEjMx74h5+iL3Y19H3RMxb1OXmFffg8F5nKXuKXgxuo+YiVmoru8ejG9BIuuejH77CYmZmIXqRmDWGcwOW93lYzuzqAA6qbrE3C3m6Lon7wnPnXw0R8y1YLZPcpvk5OogZmKWqps5Mnvf/lpBEzMxS9Ut9DbDOWdoAZrvmYlZqm4hzN6688d2V0dx1lxiXWLeHPP8/fTlN1eP7TgyE7NQ3S1GZp3zY7v5UZycn1CXmHfFPJgvOnFkJmapuluOzDrmL4VcAxhZl5irwTwza39s52kgZmIO1d1jZNZNU9D8qIGIusRcJeZxlPbPtiPmWSMxV4l5FvdsO2KeNRJz/ZiBq9l2/HguTyMxN4F5AGyz7Yh51kjMTWAeO05mQ/Ag3U/M3hcRs/8giboKU9DEPGsk5vYwA2fQ/Hxmo5GY28QMYDjF3nCAmIm5aswAIhfJAsRMzPVjBiIWyQLETMxtYAYCi2QBYibmdjADnkWyADETc1uYFXx7rBCz90Xf/NpzcGY+eLG8EGKOq+lb9e2/GEvDUTCHcBULMY8dUTWx0apvYl4RYh47YjFDuVd9h09IzHIh5rEjBTMgvOqbmNeHmNMxA/ZV3/4TErO4bmJehxkQWvVNzHIhZn8R94c1ehpax/ztLaOvQ8xP34EoOqm6OZgVCq/6bgmz/roG8x6ukzEDePr2sTADtsd2noZeMOt8c8vyItuxDWLW+fPbgeM6wgwUWvXdImYd8y9+PWHWMVH3ihkosOq7Zcw6GnWPmHU06p4xA67powfCrLOYm9ERZp1xpO4UM5Cx6rsnzDrPNOoOMes8sbyn7gUz1MpV3z1i1nk2Gan3wOw7cS5mnSc3gqdqErPCilXfPWPWeXYz4aZvlFKYdZ7c6A8zAKib3w7Rq76PgHma9/9pP/XXN8udI5QPX5bHPM29fxsNDWMGAHXzb0N4g3AcD7POFPVfN4Rs5u7L89eSmHVG1I1jBiagifnYuffq/LVlzEDM1sieFxBzP3n8VvuYgdDWyJ6qxNxfvnrL3t4KZiA0246YDxcTdUuYFXyz7Yj5sNGoW8MMuGbbEfPhM47UDWGGss22qxwzANz+znMypkjuv0JzmAFztl0DmHXfe0QtllYxA9PHdg1h1t+8973nhcyqtIwZ0I/tGsSsQ9Tl0jpmADi1jFmHqPPTA2aF2EWyRmNNmHXzHaJenV4wAzGLZI3GGjHrEHV6esIMhBbJGo01Y9YNdyxTPhl7esMMAOrWc89su8YwT7/dc6onYJlnbMnjG+HXSKVHzMAl6N4w62yNOgaxK1vi7hUzAKh3nw/DsjXiYlA3Zp0tUOdANiMNu2fMUDbQHWEGZEGXhGxGEvb9/8x/7gYzNl71vTVmyUhi3qK+Tk+YgQ1Xfe+BWWp03gqb1Hm+vH7+2htmQIPuELPUqL0W2Wc/vbnp+ULpETNg/Om7J8wSHzWQi7km1F9ctzQ2jhmI3Ou7NcwSw3Opkbkm1LN0gBkA1Lt/dzyHnhbdAfMz88MTd4zE24xP3/j/qpp7/jHGzB9/OH+tBTMgtOq76MjcaEIj8dqRurbUhBkQWPXdG+Y1o3Ms1jWot3rCEpPaMCsUXvXdG+Y1SUXay0g9ZkfMQMFV31K/AO6ZlNHws5/eXI0z9diaRulZdsYMVWjVd4+YU1JqlG16tK4AM1Bg1Tcxl0XYJOpKMAOZq76lMNfgOuY/61L4YupW87ajIsxAxqrvnjHHRHokbWKkrgwzsHLVNzFvg6121LVhVgAuvAdZGo+OGZj/lU8C3dq/ItaSvTADiau+iZkJZU/MQMKqb2JmQtkbMxCabUfMTGRqwAz49ljZETOht5VaMAPARZWYOxH9i9+4f7n78XndTzBiUxNmKNvkJGIGUNe8Y1tquL7aMCs4Vn0fHTOTkIowA5ZV38TMRKcyzICx6puY56nhP+u21Hpde2MGJn/6JmYmJzVgBmK3Rva8SAJzTcZrGw1rux6gHsxAzCJZT+XeMTPh1IQZcExOCp3M2lwY8wcv5o1RN2fyor+8EzggIY9v1DH/uPTo/NEPCAKp8dGcr6Z/tt3eI/NKzBJxofbOjPP9I0icUSfyVqMzzIBvtl3jmD98GThwRfZ6/ypx3o9e94cZcM22axxzzLFrszVqqfP1iBnKNtuuI8x3BUZpYDvUUuf502t3X8uYAfOxXUeYpSONeo+3N61jBqaz7TrE/LTgkw5bNLqW9lhxpQfMAKBu/2MYiLlMWtkFC5i/7egGMwB1+zvLLli2ExJzUmrfpxA4o+4JM+AATczHyYPX6AYzELPqm5i7zqNfLdtaxQyEVn0T8yHy6NrV9y1jBnyrvon5UHl0rX3MgGv6KDEfMg+vWRobwgzYpo8S86EzQ90YZqiKtkZOrUvMcnl4DU1iVqhka+TUusQsn4e/9PfXiBmoYGvkNXXv/itQkMnOJ/9z99WKGdh5a+Scur8jarG0ihnYcWvkEnWJunxaxgzErvquELMOUZdL65iBHbZGlqhL1PnpATOw8dbIUnUVgN8Lob7/SqZuTekFswKg7nzvmG3XEObpN08KTsm8/2p+8i+vl6udmun85c8tE4rWpifMgAV0y5h1SqA2MU9P9cWGsF2rs0ug7g0zYIDuAbNuypk878M8jSTsmA+ByUHdI2Yo4a2RperG3PC1y6FiMYsn4v/IB57V2770ihkQ3BpZqm7KDU9FXQ3mwDmn9+DBf9Pq9owZENoaeezfEbPOvcinFMmY91AO+z2IRd07ZkBga+SxvwLMuuMPAdRrMO86altO/nEA9REwKzieQ/eEWfe7UPeAWTe5UB8FM1Bwa+Sxv0LMOibqnjDrmKiPhBkotDXy2F8xZh2NukfMOh9fIj4aZqDA1shjfwOYdV/PmPW1HhEzkLk18tjfEOY1dVvDvHXdWjADrtl2xDx27IF5ev6IprHj6JiBlVsjj/0HxiwOnZiT6yq1YmvksZ+YNw0xhzEDiVsjj/3EvGmIOQ4zkLA18thPzOGTFwwxx2MGIrdGHvuJOXzygiHmNMwAoH77YhiIOQ9zdt2CNaXqtoAZCCySHYsSs1xdYk6u68IMeBbJjkWJWa4uMSfX9WFW2HjVNzETc07dEGbAN32UmOXqEnNy3RjMwBn08hzELFeXmJPrxmIGoJbTR4lZri4xJ9dNwAwo4VXfxEzMOXVTMQOCq76JmZhz6q7BDFyt+va5tTYSMzFXhlkBAqu+iZmYc+quHZn1j0VXfRMzMefUzcUMzEEr5wmJOa0uMSfXzcQ8thRZ9U3MxJxTt8TIrGOu+p73E3NaXWJOrlsA86w1a9U3MRNzTt2SI7OObfro+BCPmIm5csyLl65a9U3MxJxTV2Jk1nVdq75DLom5cE2puh1jnl/C5U9Jq76JmZhz6kqOzDq+Vd/26yZmYl5RtzDmq1tmdIZWfav50REXY3QQsz/E7G9IwQzEbY2sgpUdHcTsDzH7G1IxAzFbI4cqOzqI2R9i9jesretfJHv1TcjLrIOY/SFmf4PjUBVT1z/bTi2biZmYQ3X3wgz49lix33B7SWImZt23I2bANdvOf8Mt4zYxE/P+mAHgYtERd8PV5f8OnotZU3fsIOZDY766ZYl154/tEm944HzELFSXmN11T2tv+PKL66rS6hIzMefUvQhWdnQ4rm3+FoSYiTmu7vwSVtZVAC4KYLZdy0DMZet2inn50gzMwOSXQudBRkckkNmIHapLzIfDbK2QixkwQBfCvGhWE9hmLzEfCrP7NhTADNge2zkOzgQy7Rl0CzEfArOy9ufXtda88J6sDOZl8/yGL0ZvYm4a8+KD5bbCDAA/A4wNnJV1eePdAAAAAElFTkSuQmCC" />
+<title>Digital Workshop — Founder App</title>
+<style>
+  :root{
+    --navy:#17548f; --navy2:#2f7fe0; --amber:#f2a81d; --amber-dark:#c77f0a;
+    --bg:#eaf4ff; --surface:#ffffff; --ink:#12355c; --muted:#5a7595; --line:#d3e4f6;
+    --ok:#1e7d4f; --ok-bg:#e3f3ea; --warn-bg:#fdf0d5; --bad:#a12626; --bad-bg:#fde8e8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;height:100%}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-tap-highlight-color:transparent}
+  button{font:inherit;cursor:pointer}
+  button,[role="button"],input,textarea,select{min-height:44px}
+
+  #app{display:flex;flex-direction:column;height:100vh;height:100dvh}
+  .viewport{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;background:var(--bg)}
+  .view{padding:0 0 22px;min-height:100%}
+
+  .appbar{background:linear-gradient(135deg,#4aa3ff,#7cc4ff);color:#fff;padding:16px 18px 18px}
+  .appbar .who{font-size:12.5px;color:#bcd0ee;letter-spacing:.3px}
+  .appbar .greet{font-size:21px;font-weight:800;margin-top:1px}
+  .appbar .biz{font-size:14px;color:#fff3b0;font-weight:700;margin-top:1px}
+
+  .pad{padding:14px 16px 0}
+  .sample-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.4px;color:var(--amber-dark);background:var(--warn-bg);border:1px solid #eed9a4;border-radius:5px;padding:2px 7px;vertical-align:middle;margin-left:8px}
+  .sec-title{font-size:13px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin:18px 16px 8px}
+  .sec-title:first-child{margin-top:14px}
+
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:15px 16px;margin:0 16px 12px;text-align:left;width:calc(100% - 32px);color:var(--ink);display:block}
+  button.card{font:inherit}
+  .card h3{margin:0 0 4px;font-size:16.5px}
+  .card p{margin:0;font-size:14.5px;color:var(--muted)}
+  .card .rowline{display:flex;justify-content:space-between;align-items:center;gap:10px}
+  .chev{color:#9db0cc;font-size:20px;flex:none}
+
+  .stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:14px 16px 0}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 8px;text-align:center}
+  .stat b{display:block;font-size:21px;color:var(--navy)}
+  .stat span{font-size:11.5px;color:var(--muted);font-weight:600}
+
+  .chip{display:inline-block;font-size:11.5px;font-weight:700;border-radius:20px;padding:3px 10px;white-space:nowrap}
+  .chip.live{background:var(--ok-bg);color:var(--ok)}
+  .chip.paused{background:var(--bad-bg);color:var(--bad)}
+  .chip.trial{background:var(--warn-bg);color:#8a5f04}
+  .chip.pool{background:#e6ecf7;color:#33507e}
+  .chip.card{background:#eceff4;color:#44546e}
+  .chiprow{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 4px}
+
+  .qrow{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin:0 16px 10px;width:calc(100% - 32px);text-align:left;color:var(--ink)}
+  button.qrow{font:inherit}
+  .qrow .ic{font-size:19px;line-height:1.25;flex:none}
+  .qrow .grow{flex:1;min-width:0}
+  .qrow b{font-size:15.5px;display:block}
+  .qrow .sub{font-size:13.5px;color:var(--muted);display:block;margin-top:1px}
+  .qrow .prev{font-size:13.5px;color:#33445f;display:block;margin-top:3px;font-style:italic}
+  .qrow.quiet{opacity:.75}
+  .qrow .claimbtn{flex:none;background:var(--amber);color:#241a00;border:none;border-radius:10px;font-weight:800;font-size:14px;padding:9px 14px;min-height:40px}
+  .qrow .when{font-size:12px;color:var(--muted);white-space:nowrap}
+
+  .btn{display:block;width:calc(100% - 32px);margin:4px 16px 12px;border:none;border-radius:12px;padding:13px 16px;font-weight:700;font-size:15.5px;text-align:center}
+  .btn-amber{background:var(--amber);color:#241a00}
+  .btn-navy{background:var(--navy);color:#fff}
+  .btn-ghost{background:var(--surface);color:var(--navy);border:1px solid var(--line)}
+  .btn-danger{background:var(--surface);color:#a12626;border:1px solid #eec9c9}
+  .btn-danger-fill{background:#a12626;color:#fff;border:1px solid #a12626}
+  .btn:active{transform:scale(.99)}
+  .btn.small{width:auto;display:inline-block;margin:6px 0 0;padding:9px 14px;font-size:14px;min-height:40px}
+  .btn[disabled]{opacity:.55}
+
+  .seg{display:flex;gap:8px;margin:14px 16px 4px}
+  .seg button{flex:1;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:11px;font-weight:700;font-size:14.5px;padding:10px}
+  .seg button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+  .tabbar{flex:none;display:grid;grid-template-columns:repeat(5,1fr);background:var(--surface);border-top:1px solid var(--line);padding:6px 2px calc(8px + env(safe-area-inset-bottom))}
+  .tabbar.hidden{display:none}
+  .tab{background:none;border:none;color:var(--muted);font-size:11px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 1px;border-radius:10px;position:relative;min-height:52px;justify-content:center}
+  .tab svg{width:22px;height:22px}
+  .tab.on{color:var(--navy)}
+  .tab.on svg{stroke:var(--amber-dark)}
+  .tab .badge{position:absolute;top:2px;right:calc(50% - 21px);background:#c22f2f;color:#fff;font-size:10.5px;font-weight:800;min-width:19px;height:19px;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 5px}
+  .waitbox{display:block;margin-top:8px;background:#fdf1f1;border:1px solid #f3caca;border-radius:10px;padding:8px 10px;text-align:left}
+  .waitbox .wt{display:flex;align-items:center;gap:6px}
+  .waitbox .dot{width:8px;height:8px;border-radius:50%;background:#d92d20;flex:none}
+  .waitbox .wl{color:#b42318;font-size:12px;font-weight:800;letter-spacing:.4px}
+  .waitbox .wtm{margin-left:auto;color:#98a2b3;font-size:12px}
+  .waitbox .wp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#344054;font-size:13.5px;line-height:1.4;margin-top:3px}
+
+  .login-view{background:linear-gradient(135deg,#4aa3ff,#7cc4ff);min-height:100%;padding:38px 24px 26px;color:#fff;display:flex;flex-direction:column}
+  .login-view .logo-c{text-align:center;margin-bottom:8px}
+  .login-view h2{text-align:center;margin:10px 0 2px;font-size:23px}
+  .login-view .mock-tag{text-align:center;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#8fa8cc;margin-bottom:6px}
+  .login-view .pick-note{text-align:center;font-size:14.5px;color:#a9bedd;margin:10px 0 4px}
+  .login-view .fine{margin-top:auto;padding-top:26px;font-size:13.5px;color:#a9bedd;text-align:center;line-height:1.55}
+  .login-view .field{margin:0 0 12px}
+  .login-view .field label{color:#a9bedd}
+  .login-view .field input{background:#122c52;border-color:#33507e;color:#fff}
+  .login-view .btn{width:100%;margin:4px 0 12px}
+  .linkbtn{background:none;border:none;color:var(--amber);font-weight:700;font-size:15px;width:100%;text-align:center;padding:10px;min-height:44px}
+  .autherr{background:var(--bad-bg);color:var(--bad);border-radius:11px;padding:11px 13px;font-size:14px;margin:0 0 12px;line-height:1.45}
+
+  .subbar{display:flex;align-items:center;gap:6px;padding:12px 10px 4px}
+  .backbtn{background:none;border:none;color:var(--navy);font-weight:700;font-size:15px;display:flex;align-items:center;gap:2px;padding:8px 10px;border-radius:9px}
+  .subbar h3{margin:0;font-size:17px;color:var(--ink)}
+  .detail-body{padding:6px 16px 0}
+  .detail-body .card{margin-left:0;margin-right:0;width:100%}
+  .kv{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .kv:last-child{border-bottom:none}
+  .kv span{color:var(--muted);flex:none}
+  .kv b{color:var(--ink);text-align:right;font-weight:600}
+  .kvblock{padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .kvblock:last-child{border-bottom:none}
+  .kvblock span{color:var(--muted);display:block;font-size:13px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;margin-bottom:2px}
+  .kvblock div{color:var(--ink)}
+
+  /* Messenger-style bubbles (John's pick, 2026-11-19): white agent bubbles
+     with a thin border, soft shadow and a tail corner; navy for the
+     founder's own messages; the client's messages sit on the left in a
+     soft gray with the same tail. */
+  .bubble{background:#e9eef6;border:1px solid #d5dce8;border-radius:18px;border-bottom-left-radius:6px;padding:12px 14px;font-size:15px;color:var(--ink);max-width:88%;margin-bottom:10px;box-shadow:0 1px 2px rgba(15,36,64,.07)}
+  .bubble.agent{background:#fff;border:1px solid var(--line);border-radius:18px;border-bottom-left-radius:6px}
+  .bubble.founder{background:var(--navy);color:#fff;border-color:var(--navy);border-radius:18px;border-bottom-right-radius:6px;margin-left:auto}
+  .bubble.change{background:var(--ok-bg);border:1px solid #bfe0cd;border-radius:18px}
+  .bubble.summary{background:var(--warn-bg);border:1px solid #eed9a4;border-radius:18px}
+  .bubble .meta{font-size:12px;color:var(--muted);margin-top:6px}
+  .bubble.founder .meta{color:#bcd0ee}
+  .bubble .who{font-size:12px;font-weight:800;letter-spacing:.4px;color:var(--amber-dark);margin-bottom:3px}
+  .bubble.founder .who{color:var(--amber)}
+
+  .replybox{display:flex;gap:8px;margin:4px 0 14px}
+  .replybox textarea{flex:1;border:1px solid var(--line);border-radius:11px;padding:11px 12px;font:inherit;font-size:15px;resize:vertical;min-height:48px;background:#fff;color:var(--ink)}
+  .replybox button{flex:none;background:var(--amber);color:#241a00;border:none;border-radius:11px;font-weight:800;padding:0 18px}
+
+  .pickrow{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 4px}
+  .pickrow button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:20px;padding:8px 14px;font-weight:700;font-size:14px;min-height:40px}
+  .pickrow button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .assign-note{font-size:13px;color:var(--muted);margin-top:4px}
+
+  .prompt-panel{background:#12233d;color:#dbe6f7;border-radius:12px;padding:14px;font-size:13px;line-height:1.55;white-space:pre-wrap;word-break:break-word;max-height:340px;overflow-y:auto;margin-top:8px}
+  .copyfallback{width:100%;border:1px solid var(--line);border-radius:11px;padding:11px 12px;font:inherit;font-size:13px;min-height:150px;margin-top:8px;background:#fff;color:var(--ink)}
+
+  .toast{position:fixed;left:16px;right:16px;bottom:calc(86px + env(safe-area-inset-bottom));background:var(--navy);color:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 10px 30px rgba(10,25,50,.35);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .25s,transform .25s;z-index:50}
+  .toast.show{opacity:1;pointer-events:auto;transform:none}
+  .toast b{display:block;font-size:15px}
+  .toast span{font-size:13.5px;color:#bcd0ee}
+  .toast .x{position:absolute;top:6px;right:10px;background:none;border:none;color:#bcd0ee;font-size:18px;min-height:32px}
+
+  .empty-note{margin:18px 16px 0;font-size:14.5px;color:var(--muted);text-align:center}
+  .honest{background:var(--warn-bg);border:1px solid #eed9a4;border-radius:14px;padding:13px 16px;margin:0 16px 12px;font-size:14px;color:#5c4303}
+  .honest b{display:block;margin-bottom:2px;color:#3d2d02}
+  .errbox{background:var(--bad-bg);border:1px solid #eec9c9;border-radius:14px;padding:13px 16px;margin:0 16px 12px;font-size:14px;color:#6d1d1d}
+  .errbox b{display:block;margin-bottom:2px;color:#4d1010}
+
+  .pending-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.2px;color:#33507e;background:#e6ecf7;border:1px solid #c3d2ea;border-radius:5px;padding:2px 7px;vertical-align:middle;margin-left:8px}
+  .field{margin:0 16px 12px}
+  .field label{display:block;font-size:13px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+  .field input{width:100%;border:1px solid var(--line);border-radius:11px;padding:12px;font:inherit;font-size:16px;background:#fff;color:var(--ink)}
+  .codebox{font-size:25px;font-weight:800;letter-spacing:3px;text-align:center;background:#eef3fa;border:1.5px dashed #9db0cc;border-radius:12px;padding:16px 10px;margin:10px 0;color:var(--navy);word-break:break-all}
+
+  .sysnote{background:#f4f6fa;border:1px solid var(--line);border-radius:12px;padding:11px 14px;font-size:13.5px;color:var(--muted);text-align:center;margin-bottom:14px;line-height:1.55}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="viewport" id="viewport"></div>
+  <div class="tabbar hidden" id="tabbar"></div>
+</div>
+<div class="toast" id="toast"><b id="toastHead"></b><span id="toastText"></span><button class="x" id="toastX" aria-label="Dismiss">×</button></div>
+
+<script>
+"use strict";
+/* =====================================================================
+   Digital Workshop — Founder App (live edition, v0.8.0)
+   The founders' staff console, running on the live Supabase back end.
+   Real founder accounts: sign-in returns a session token, every later
+   request carries it, and the server (RLS + RPCs) does the scoping.
+   Nothing is seeded or stored on this phone except the session token —
+   no connection means an honest error, never fake data.
+   ===================================================================== */
+
+/* ================= Config =================
+   The anon key is a transport key only — it authorizes nothing by
+   itself; the session token + server rules do the real gating. */
+var SUPABASE_URL = "https://iaoqdyxshqhbfewopszu.supabase.co";
+var SUPABASE_ANON_KEY = "sb_publishable_n1nw8M0VXrF9YaVSsrvsbQ_fV6hlV3H";
+var SESSION_LS_KEY = "dw-founder-session-v1";
+var OLD_LS_KEY = "dw-founder-app-v1"; /* on-device edition data — retired, never read */
+
+/* ================= Helpers ================= */
+function pad(n){ return (n<10?"0":"")+n; }
+function dstr(off){ var d=new Date(); d.setDate(d.getDate()+(off||0)); return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];}); }
+function timeAgo(ts){
+  var s=Math.max(1,Math.floor((Date.now()-ts)/1000));
+  if(s<90) return "just now";
+  var m=Math.floor(s/60); if(m<60) return m+"m ago";
+  var h=Math.floor(m/60); if(h<24) return h+"h ago";
+  var d=Math.floor(h/24); if(d<7) return d+"d ago";
+  return new Date(ts).toLocaleDateString("en-US",{month:"short",day:"numeric"});
+}
+function daysBetween(a,b){ /* whole days from date-str a to date-str b */
+  var da=new Date(a+"T12:00:00"), db=new Date(b+"T12:00:00");
+  return Math.round((db-da)/86400000);
+}
+function fmtExpiry(ts){
+  return new Date(ts).toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+}
+
+/* ================= The master agent prompt (v2) =================
+   Plain-text body of digital-workshop-master-agent-prompt-2026-11-17.md
+   (v2 — adds "Your connection" and hard rule 9). Every Digital Workshop
+   agent runs on this; the slots are filled at copy time. Copying a full
+   prompt WITH key issues a fresh API key and turns the old one off. */
+var MASTER_PROMPT = `You are {AGENT_NAME}, an AI agent working for Digital Workshop. Your founder is {FOUNDER_NAME} — a human who owns this client relationship and stands behind your work. You staff the agent chat in the Owner App of one client: {CLIENT_NAME}, owner of the business in the record below. You are an AI and you never pretend otherwise; the app already says so, and you say it plainly whenever it's relevant or you're asked.
+
+Your source of truth
+
+{BUSINESS_RECORD}
+
+The record is the client's confirmed facts: business name, services, hours, prices, phone, service area, payment ways, booking habits, and what her customers always ask. It outranks everything else you might guess. If a fact isn't in the record, you don't have it — ask her, don't invent it. When she confirms a new fact in chat, it becomes part of the record.
+
+Your connection
+
+You reach the Digital Workshop system through its agent API, using your personal API key:
+
+API key: {API_KEY}
+
+The key identifies you, and it only opens the clients assigned to you. Five actions, each taking your key:
+
+- agentInbox — your waiting list: your clients whose last chat message is unanswered, with their fitting status.
+- agentGetClient — one client's full record and chat thread.
+- agentReply — post a message in her chat as you; include a change summary and it posts as a "Done ✓" card.
+- agentUpdateProfile — save changes to her business name, services, hours, and phone. Her website reads from these.
+- agentFlag — raise a flag for your founder; it lands in his Today queue.
+
+Work your inbox like a front desk: see who's waiting, read the record and the thread before you answer, do the work, show the proof, flag what isn't yours.
+
+Your jobs
+
+1. The fitting (once, at the beginning). When a new client's chat first opens, walk her website with her, section by section, in this order: name/tagline → hours → services → prices → photos → contact → booking → payments → Job Page → the golden question, "What do customers always ask you on the phone?" Read her current values back to her from the record; she confirms or corrects. Apply each change to her website as you go and show her a screenshot of the changed page before moving on. End with a numbered summary of everything changed and confirmed, and tell her: the site is live, her 7 free days are running, and this chat stays here for changes.
+2. Change requests (ongoing). Small changes — hours, prices, photos, wording, a service added or removed — are your daily work. Make the change, screenshot it, reply "Done ✓" with the picture. Group small requests kindly; her plan includes about 10 minutes of changes a month.
+3. Reports (day 7 and end of month 2). Draft her results report from her real numbers only — visits, call taps, bookings, questions — pulled from her app data. A number you don't have is a number you leave out; never estimate or round up. The day-7 report is also when her card goes on file: present the results first, then the card step, plainly, with the price path ($5/mo for two months, then $20/mo) stated exactly. Her founder sees every report before it goes out.
+4. Plain answers. She'll ask how things work — her site, her app, her Job Pages. Answer short and simple, in her words, no jargon.
+
+How you talk
+
+Short, warm messages — like texting a helpful person, not writing an email. One topic at a time. Easy lists when you list changes. Never bury her in options: do the obvious thing, show the proof, move on. You're quick, but you don't promise instant — if something will take a while, say when she'll see it.
+
+The rules (hard — they don't bend)
+
+1. Never invent a fact about her business. Not a service, not a price, not a testimonial, not a year. If it's not in the record or from her mouth, it doesn't go on her site.
+2. Proof before "done." No change is reported done without a screenshot of the changed page, checked with your own eyes first. If the screenshot shows it's wrong, fix it before she sees it.
+3. Scope is real. Small edits are included. Big asks — a new page, a redesign, an online store, an app-store app — are not: quote it kindly in the chat ("That's a bigger job — $X one-time. Want me to put it to {FOUNDER_NAME}?"), and if she says yes, flag it for your founder. Don't build it, don't refuse it flat.
+4. Money is never yours to touch. You never ask for, receive, or repeat card or bank details. Her customers pay through her own Square; her subscription is charged by Digital Workshop's Square. Any money question beyond the published prices goes to your founder.
+5. Escalate the human things. Complaints, disputes, legal questions, anything about her contract, anything you're unsure of: stop, tell her kindly — "That one's for {FOUNDER_NAME} — I'm bringing him in" — and flag it in the Founder App queue. A fast honest handoff beats a confident wrong answer.
+6. Her information stays hers. Never mention another client, never carry one client's facts into another's chat, never share her record outside Digital Workshop.
+7. Honest promises only. Google findability grows over days and weeks; never promise rankings, traffic, or sales. Never offer fake reviews, fake testimonials, or anything deceptive — offer the honest version instead (a real review link after a real job).
+8. Her site, her call. When she asks for a change you think is a mistake — a price that looks like a typo, hours that close her busiest day — say so once, plainly, then do what she decides. It's her business.
+9. Your key is a secret. Never repeat your API key in a chat, never share it, never put it anywhere but the API call itself. If you think anyone else has seen it, tell your founder at once — he can revoke it and issue you a new one in one tap.
+
+Keeping the record
+
+Every confirmed fact, every change, every report goes into her record as you work. If another agent ever covers this client, they will read the record and this chat and pick up where you left off — write so they can. If you are the covering agent: read the record and the full thread before your first message, and introduce yourself by name once.
+
+What you are not
+
+You are not her employee, her family, or a human with a phone. You don't negotiate prices with her customers (you never talk to her customers at all — the agent chat is owner-only), you don't give legal, tax, or medical advice, and you don't make commitments with dates or dollars that your founder hasn't approved. Within the rules above, though, you are genuinely hers to use: be the reason her website is never stale and she never feels alone with it.`;
+
+var CLIENT_SLOT_FILL = "[CLIENT NAME — filled in at assignment]";
+var RECORD_SLOT_FILL = "[BUSINESS RECORD — the client's confirmed facts from her profile, attached at assignment]";
+var NO_KEY_FILL = "use the key from your agent prompt";
+
+function buildMasterPrompt(){ return MASTER_PROMPT; }
+function buildAgentPrompt(agentName, founderLabel, apiKey){
+  return MASTER_PROMPT
+    .split("{AGENT_NAME}").join(agentName)
+    .split("{FOUNDER_NAME}").join(founderLabel)
+    .split("{API_KEY}").join(apiKey || NO_KEY_FILL)
+    .split("{CLIENT_NAME}").join(CLIENT_SLOT_FILL)
+    .split("{BUSINESS_RECORD}").join(RECORD_SLOT_FILL);
+}
+
+/* ================= API layer =================
+   Every request carries the anon key as transport; signed-in requests
+   also carry the session token in x-dw-session. The server resolves
+   the token to the founder and scopes everything by RLS. */
+function apiHeaders(extra){
+  var h = {
+    "apikey": SUPABASE_ANON_KEY,
+    "Authorization": "Bearer " + SUPABASE_ANON_KEY,
+    "Content-Type": "application/json"
+  };
+  if(session && session.token) h["x-dw-session"] = session.token;
+  if(extra) for(var k in extra) h[k] = extra[k];
+  return h;
+}
+function apiError(status, body){
+  var e = new Error((body && body.message) || ("Request failed (" + status + ")"));
+  e.status = status; e.body = body || null;
+  return e;
+}
+function apiFetch(path, opts){
+  opts = opts || {};
+  return fetch(SUPABASE_URL + "/rest/v1/" + path, {
+    method: opts.method || "GET",
+    headers: apiHeaders(opts.headers),
+    body: opts.body != null ? JSON.stringify(opts.body) : undefined
+  }).then(function(res){
+    return res.text().then(function(text){
+      var data = null;
+      try{ data = text ? JSON.parse(text) : null; }catch(e){ data = null; }
+      if(!res.ok) throw apiError(res.status, data);
+      return data;
+    });
+  });
+}
+function rpc(name, args){ return apiFetch("rpc/" + name, { method:"POST", body: args || {} }); }
+function tbl(path){ return apiFetch(path); }
+function insertRow(table, row){
+  return apiFetch(table, { method:"POST", body: row, headers:{ "Prefer":"return=representation" } });
+}
+function patchRow(path, patch){
+  return apiFetch(path, { method:"PATCH", body: patch, headers:{ "Prefer":"return=minimal" } });
+}
+
+/* ================= Session =================
+   Only the session token + founder id persist on this phone. Sign-out
+   calls the server and drops the token either way. */
+var session = null; /* { token, founderId } */
+function saveSession(){
+  try{
+    if(session) localStorage.setItem(SESSION_LS_KEY, JSON.stringify(session));
+    else localStorage.removeItem(SESSION_LS_KEY);
+  }catch(e){}
+}
+function loadSession(){
+  try{
+    var raw = localStorage.getItem(SESSION_LS_KEY);
+    if(raw){ var s = JSON.parse(raw); if(s && s.token && s.founderId) session = s; }
+  }catch(e){}
+}
+function clearSession(){ session = null; saveSession(); }
+
+/* ================= Live cache =================
+   In-memory mirror of the server rows, rebuilt by refreshAll(). Views
+   render from this and nothing else — there is no local data store. */
+var db = null; /* { founders, agents, businesses, accounts, chats, messages, flags, bookings, threads } */
+function refreshAll(){
+  var qs = [
+    tbl("founders?select=id,email,display_name,label,in_rotation&order=created_at.asc"),
+    tbl("agents?select=id,founder_id,name,is_main,job&order=created_at.asc"),
+    tbl("businesses?select=*&order=created_at.asc"),
+    tbl("owner_accounts?select=business_id,email,owner_name,setup_pending"),
+    tbl("agent_chats?select=business_id,fitting_started,fitting_done"),
+    tbl("agent_messages?select=chat_id,business_id,sender,kind,body,change_summary,sender_name,created_at&order=created_at.asc"),
+    tbl("agent_flags?select=id,business_id,founder_id,agent_id,body,created_at&dismissed_at=is.null&order=created_at.desc"),
+    tbl("bookings?select=business_id"),
+    tbl("question_threads?select=business_id,unread"),
+    tbl("prospects?select=*&order=created_at.desc")
+  ];
+  var fid = session && session.founderId;
+  if(fid){
+    qs.push(tbl("founder_chat_messages?select=agent_id,sender,body,created_at&founder_id=eq." + fid + "&sender=eq.agent&order=created_at.desc"));
+    qs.push(tbl("founder_chat_reads?select=agent_id,last_read_at&founder_id=eq." + fid));
+  }
+  return Promise.all(qs).then(function(r){
+    db = { founders:r[0]||[], agents:r[1]||[], businesses:r[2]||[],
+           accounts:r[3]||[], chats:r[4]||[], messages:r[5]||[],
+           flags:r[6]||[], bookings:r[7]||[], threads:r[8]||[],
+           prospects:r[9]||[], agentMsgs:r[10]||[], chatReads:r[11]||[] };
+    buildClients();
+  });
+}
+function founderById(id){
+  if(!db) return null;
+  for(var i=0;i<db.founders.length;i++) if(db.founders[i].id===id) return db.founders[i];
+  return null;
+}
+function agentById(id){
+  if(!db) return null;
+  for(var i=0;i<db.agents.length;i++) if(db.agents[i].id===id) return db.agents[i];
+  return null;
+}
+function agentsOf(founderId){
+  if(!db) return [];
+  return db.agents.filter(function(a){ return a.founder_id === founderId; });
+}
+/* ---- Agent messages waiting on the founder (Build List 2, item 2) ----
+   An agent is "waiting" when its latest founder-chat message is newer
+   than the founder's read mark for that thread (founder_chat_reads). */
+function latestAgentMsg(agentId){
+  if(!db || !db.agentMsgs) return null;
+  for(var i=0;i<db.agentMsgs.length;i++) if(db.agentMsgs[i].agent_id===agentId) return db.agentMsgs[i];
+  return null;
+}
+function chatReadAt(agentId){
+  if(!db || !db.chatReads) return "";
+  for(var i=0;i<db.chatReads.length;i++) if(db.chatReads[i].agent_id===agentId) return db.chatReads[i].last_read_at || "";
+  return "";
+}
+function agentWaitingMsg(a){
+  var m = latestAgentMsg(a.id);
+  if(!m) return null;
+  return (m.created_at > chatReadAt(a.id)) ? m : null;
+}
+function agentsWaitingCount(){
+  var p = me(); if(!p) return 0;
+  return agentsOf(p.id).filter(function(a){ return !!agentWaitingMsg(a); }).length;
+}
+function fmtClock(ts){ return new Date(ts).toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"}); }
+function markAgentChatRead(agentId){
+  if(!session) return;
+  var nowIso = new Date().toISOString();
+  if(db && db.chatReads){
+    var found = false;
+    db.chatReads.forEach(function(r){ if(r.agent_id===agentId){ r.last_read_at = nowIso; found = true; } });
+    if(!found) db.chatReads.push({ agent_id: agentId, last_read_at: nowIso });
+  }
+  rpc("dw_mark_agent_chat_read", { p_agent_id: agentId }).then(function(){}, function(){});
+}
+function mainAgentOf(founderId){
+  var list = agentsOf(founderId);
+  for(var i=0;i<list.length;i++) if(list[i].is_main) return list[i];
+  return list[0] || null;
+}
+/* A founder as the views use one: label + short name + main agent. */
+function partnerView(f){
+  if(!f) return null;
+  var ma = mainAgentOf(f.id);
+  return { id:f.id, label:f.label, short:f.display_name, email:f.email,
+           agent: ma ? ma.name : "—", agentId: ma ? ma.id : null };
+}
+function partnerList(){
+  if(!db) return [];
+  return db.founders.map(partnerView);
+}
+function partnerById(id){ return partnerView(founderById(id)); }
+function me(){
+  if(!session) return null;
+  return partnerView(founderById(session.founderId));
+}
+function accountFor(businessId){
+  if(!db) return null;
+  for(var i=0;i<db.accounts.length;i++) if(db.accounts[i].business_id===businessId) return db.accounts[i];
+  return null;
+}
+function chatFor(businessId){
+  if(!db) return null;
+  for(var i=0;i<db.chats.length;i++) if(db.chats[i].business_id===businessId) return db.chats[i];
+  return null;
+}
+function chatIdFor(businessId){
+  if(!db) return null;
+  for(var i=0;i<db.messages.length;i++) if(db.messages[i].business_id===businessId) return db.messages[i].chat_id;
+  return null;
+}
+
+/* Businesses mapped to the client shape the views render. */
+var clientsCache = [];
+function buildClients(){
+  clientsCache = db.businesses.map(function(b){
+    var acct = accountFor(b.id);
+    var chatRow = chatFor(b.id);
+    var agent = b.assigned_agent_id ? agentById(b.assigned_agent_id) : null;
+    var msgs = db.messages.filter(function(m){ return m.business_id === b.id; }).map(function(m){
+      return { from:m.sender, kind:m.kind, text:m.body, changeSummary:m.change_summary,
+               ts:Date.parse(m.created_at) || Date.now(), name:m.sender_name };
+    });
+    var bk = 0, oq = 0;
+    db.bookings.forEach(function(x){ if(x.business_id===b.id) bk++; });
+    db.threads.forEach(function(x){ if(x.business_id===b.id && x.unread) oq++; });
+    return {
+      id:b.id, name:b.name, sample:!!b.is_sample,
+      founderId:b.assigned_founder_id, agentId:b.assigned_agent_id,
+      agent: agent ? agent.name : null,
+      siteStatus:b.site_status, trialStart:b.trial_start, cardState:b.card_state,
+      fittingDone: chatRow ? !!chatRow.fitting_done : false,
+      fittingStarted: chatRow ? !!chatRow.fitting_started : false,
+      day7ReportDone:!!b.day7_report_done,
+      ownerName:b.owner_name, ownerEmail: acct ? acct.email : null,
+      setupPending: acct ? !!acct.setup_pending : false,
+      setupKnown: !!acct,
+      record:{ hours:b.hours_text || "", services:b.services || [], prices:b.prices_note || "",
+               phone:b.phone_display || "", area:b.service_area || "",
+               walkIns:b.walk_ins_note || "", golden:b.golden_answer || "" },
+      activity:{ bookings:bk, openQuestions:oq },
+      chat:msgs
+    };
+  });
+}
+function clientById(id){
+  for(var i=0;i<clientsCache.length;i++) if(clientsCache[i].id===id) return clientsCache[i];
+  return null;
+}
+function clientsOf(founderId){
+  return clientsCache.filter(function(c){ return c.founderId === founderId; });
+}
+function poolClients(){
+  return clientsCache.filter(function(c){ return !c.founderId; });
+}
+function groupClients(){
+  return { groups: partnerList().map(function(p){ return { partner:p, clients:clientsOf(p.id) }; }),
+           pool: poolClients() };
+}
+function staffCount(agentId){
+  var n = 0;
+  clientsCache.forEach(function(c){ if(c.agentId === agentId) n++; });
+  return n;
+}
+function waitingCount(agentId){
+  var n = 0;
+  clientsCache.forEach(function(c){ if(c.agentId === agentId && isChatWaiting(c)) n++; });
+  return n;
+}
+/* Agent levels for the team view (John's model, 2026-11-19): the main
+   agent is the Chief of Staff; an agent whose job says "recruit" works
+   the FIND level; every other agent is an employee who owns clients. */
+function agentLevel(a){
+  if(!a) return "own";
+  if(a.is_main) return "direct";
+  var j = (a.job || "").toLowerCase();
+  if(j.indexOf("recruit") >= 0) return "find";
+  if(j.indexOf("chief") >= 0) return "direct";
+  return "own";
+}
+function prospectById(id){
+  if(!db) return null;
+  for(var i=0;i<db.prospects.length;i++) if(db.prospects[i].id===id) return db.prospects[i];
+  return null;
+}
+function prospectsByStatus(status){
+  if(!db) return [];
+  return db.prospects.filter(function(x){ return x.status === status; });
+}
+function myPendingProspects(){
+  if(!db || !session) return [];
+  return db.prospects.filter(function(x){ return x.status === "pending" && x.assigned_founder_id === session.founderId; });
+}
+/* One honest line from a prospect packet, for board cards. */
+function packetLine(pk){
+  if(!pk) return "";
+  var parts = [];
+  if(pk.phone) parts.push("phone");
+  if(pk.hours) parts.push("hours");
+  if(pk.services) parts.push("services");
+  if(pk.photos) parts.push("photos");
+  if(pk.reviews) parts.push(pk.reviews);
+  return parts.length ? "Packet: " + parts.join(" · ") : "";
+}
+function flagsFor(businessId){
+  if(!db) return [];
+  return db.flags.filter(function(f){ return f.business_id === businessId; });
+}
+function myFlags(){
+  if(!db || !session) return [];
+  return db.flags.filter(function(f){ return f.founder_id === session.founderId; });
+}
+
+/* ================= Derived ================= */
+function trialDay(c){
+  if(!c.trialStart) return null;
+  return Math.max(1, daysBetween(c.trialStart, dstr(0)) + 1);
+}
+function onTrial(c){ var d = trialDay(c); return d !== null && d <= 7; }
+function isChatWaiting(c){
+  /* Mirrors the back end's agent inbox: an owner message is answered by
+     a founder reply or any agent message that isn't a scripted ack. */
+  var lastOwner = -1, lastAnswer = -1;
+  for(var i=0;i<c.chat.length;i++){
+    var m = c.chat[i];
+    if(m.from==="owner") lastOwner = i;
+    if(m.from==="founder" || (m.from==="agent" && m.kind!=="ack")) lastAnswer = i;
+  }
+  return lastOwner > lastAnswer;
+}
+function isDay7Due(c){
+  var d = trialDay(c);
+  return d !== null && d >= 7 && !c.day7ReportDone && c.siteStatus === "live";
+}
+function statusLine(c){
+  if(!c.founderId) return "Unassigned — in the pool";
+  var parts = [];
+  var d = trialDay(c);
+  if(d !== null && d <= 7) parts.push("Free trial day "+d+" of 7");
+  else if(d !== null) parts.push("Past the free week (day "+d+")");
+  parts.push(c.siteStatus === "paused" ? "Site PAUSED" : "Site live");
+  return parts.join(" · ");
+}
+function computeQueue(){
+  var q = { waiting:[], day7:[], paused:[], pool:[], flags:myFlags(), fittingDone:[] };
+  clientsCache.forEach(function(c){
+    if(!c.founderId){ q.pool.push(c); return; }
+    var listed = false;
+    if(isChatWaiting(c)){ q.waiting.push(c); listed = true; }
+    if(isDay7Due(c)){ q.day7.push(c); listed = true; }
+    if(c.siteStatus === "paused"){ q.paused.push(c); listed = true; }
+    if(c.fittingDone && !listed) q.fittingDone.push(c);
+  });
+  return q;
+}
+function queueCount(){
+  var q = computeQueue();
+  return q.waiting.length + q.day7.length + q.paused.length + q.pool.length + q.flags.length;
+}
+function lastOwnerMsg(c){
+  for(var i=c.chat.length-1;i>=0;i--) if(c.chat[i].from==="owner") return c.chat[i];
+  return null;
+}
+
+/* ================= Actions =================
+   Every action is a server call. Failures surface as honest messages —
+   nothing is faked locally and nothing falls back to stored data. */
+var GENERIC_CODE_ERROR = "That code doesn't check out — it may be wrong, expired, or already used. Check it and try again.";
+var SIGNIN_ERROR = "That email and password don't match. Check them and try again.";
+var NET_ERROR = "Can't reach the Digital Workshop system. Check your connection and try again.";
+/* The server's own words when it refuses something (v0.7.0 fix: a refusal
+   used to be misreported as a connection problem). Falls back to the
+   connection message only when the server said nothing. */
+function serverMsg(err){
+  if(err && err.body && err.body.message) return err.body.message;
+  if(err && err.status) return "The system refused that (" + err.status + ").";
+  return NET_ERROR;
+}
+
+function signIn(email, password){
+  return rpc("founder_signin", { p_email:email, p_password:password }).then(function(r){
+    session = { token:r.token, founderId:r.founder_id };
+    saveSession();
+    return refreshAll();
+  });
+}
+function signOut(){
+  var done = function(){ clearSession(); db = null; clientsCache = []; };
+  return rpc("founder_signout", {}).then(done, done);
+}
+function checkFounderCode(email, code){
+  return rpc("check_founder_setup_code", { p_email:email, p_code:code }).then(function(r){
+    return !!(r && r.ok);
+  });
+}
+function redeemFounderCode(email, code, newPassword){
+  return rpc("redeem_founder_setup_code", { p_email:email, p_code:code, p_new_password:newPassword }).then(function(r){
+    if(!r || !r.ok) return false;
+    session = { token:r.token, founderId:r.founder_id };
+    saveSession();
+    return refreshAll().then(function(){ return true; });
+  });
+}
+function createClientRemote(bizName, ownerName, ownerEmail){
+  return rpc("create_client", { p_business_name:bizName, p_owner_name:ownerName, p_owner_email:ownerEmail });
+}
+function reissueSetupCodeRemote(businessId){
+  return rpc("reissue_client_setup_code", { p_business_id:businessId });
+}
+function claimClientRemote(businessId){
+  return rpc("claim_business", { p_business_id:businessId });
+}
+function updateAssignmentRemote(businessId, founderId, agentId){
+  return rpc("update_assignment", { p_business_id:businessId, p_founder_id:founderId, p_agent_id:agentId || null });
+}
+function generateAgentKeyRemote(agentId){
+  return rpc("generate_agent_key", { p_agent_id:agentId });
+}
+function revokeAgentKeyRemote(agentId){
+  return rpc("revoke_agent_key", { p_agent_id:agentId });
+}
+function createAgentRemote(name, job){
+  return rpc("dw_create_agent", { p_name:name, p_job:job });
+}
+function setMainAgentRemote(agentId){
+  return rpc("dw_set_main_agent", { p_agent_id:agentId });
+}
+function removeAgentRemote(agentId){
+  return rpc("dw_remove_agent", { p_agent_id:agentId });
+}
+function addProspectRemote(name, city, fit, packet){
+  return rpc("dw_add_prospect", { p_business_name:name, p_city:city, p_fit_reason:fit, p_packet:packet, p_source:"manual" });
+}
+function prospectToCosRemote(prospectId, founderId){
+  return rpc("dw_prospect_to_cos", { p_prospect_id:prospectId, p_founder_id:founderId });
+}
+function prospectAutoAssignRemote(prospectId){
+  return rpc("dw_prospect_auto_assign", { p_prospect_id:prospectId });
+}
+function prospectAssignEmployeeRemote(prospectId, agentId){
+  return rpc("dw_prospect_assign_employee", { p_prospect_id:prospectId, p_agent_id:agentId });
+}
+function prospectRejectRemote(prospectId){
+  return rpc("dw_prospect_reject", { p_prospect_id:prospectId });
+}
+function prospectReopenRemote(prospectId){
+  return rpc("dw_prospect_reopen", { p_prospect_id:prospectId });
+}
+function sendReplyRemote(c, text){
+  /* Founder reply into her chat — the insert policy pins sender to
+     'founder' and the business to one of his own clients. */
+  var chatId = chatIdFor(c.id);
+  var row = { business_id:c.id, sender:"founder", kind:"text", body:text,
+              sender_name: me() ? me().label : "Founder" };
+  if(chatId) row.chat_id = chatId;
+  if(!chatId){
+    /* No messages yet: the chat row id comes from agent_chats — refetch it. */
+    return tbl("agent_chats?select=id&business_id=eq." + c.id).then(function(rows){
+      if(rows && rows[0]) row.chat_id = rows[0].id;
+      return insertRow("agent_messages", row);
+    });
+  }
+  return insertRow("agent_messages", row);
+}
+function dismissFlagRemote(flagId){
+  return patchRow("agent_flags?id=eq." + flagId, { dismissed_at: new Date().toISOString() });
+}
+
+/* ---- Founder ↔ agent chat (live) ----
+   Her thread lives in founder_chat_messages under RLS: he reads and
+   writes only his own threads. Agent replies land here when the agent
+   side works them — none are ever simulated. */
+var agentThreadCache = {}; /* agentId -> [messages] */
+function loadAgentThread(agentId){
+  if(!session) return Promise.resolve([]);
+  return tbl("founder_chat_messages?select=id,sender,body,created_at&founder_id=eq." + session.founderId +
+             "&agent_id=eq." + agentId + "&order=created_at.asc").then(function(rows){
+    var msgs = (rows||[]).map(function(m){
+      return { from:m.sender, kind:"text", text:m.body, ts:Date.parse(m.created_at) || Date.now(), name:null };
+    });
+    agentThreadCache[agentId] = msgs;
+    markAgentChatRead(agentId); /* opening the thread clears its waiting badge */
+    return msgs;
+  });
+}
+function sendAgentChatRemote(agent, text){
+  var p = me();
+  if(!p || !agent) return Promise.reject(new Error("Not signed in."));
+  return insertRow("founder_chat_messages", {
+    founder_id: session.founderId, agent_id: agent.id, sender:"founder", body:text
+  }).then(function(){ return loadAgentThread(agent.id); });
+}
+function parseAgentChatParam(param){
+  var parts = String(param||"").split(":");
+  return { founderId:parts[0], agentId:parts.slice(1).join(":") };
+}
+
+/* ================= Navigation ================= */
+var route = { name:"login", param:null };
+var navStack = [];
+var clientsFilter = "mine"; /* "mine" | "everyone" */
+var deleteArmedId = null; /* client id whose delete note is showing, or null */
+var shownCode = null; /* { clientId, code, mode, expiresAt } — a fresh code, displayed once */
+var authError = ""; /* sign-in / setup-code error line, in the app's voice */
+var loginEmailDraft = ""; /* kept across a failed sign-in (v0.7.0 fix) */
+var agentPageTab = "chat"; /* agent page: "chat" | "clients" | "key" */
+var removeArmedAgentId = null; /* agent id whose remove confirm is showing */
+var setupDraft = null; /* { email, code } between code check and password set */
+var viewport = document.getElementById("viewport");
+var tabbar = document.getElementById("tabbar");
+
+function go(name, param, replace){
+  deleteArmedId = null;
+  if(!replace && route.name !== "login") navStack.push({ name:route.name, param:route.param });
+  route = { name:name, param:(param==null?null:param) };
+  render();
+}
+function goTab(name){ deleteArmedId = null; navStack = []; route = { name:name, param:null }; render(); }
+function goBack(){
+  deleteArmedId = null;
+  var prev = navStack.pop();
+  if(prev){ route = prev; render(); return true; }
+  return false;
+}
+window.__dwBack = function(){
+  if((route.name === "client" || route.name === "newclient" || route.name === "codeshown" || route.name === "agentchat" || route.name === "agent" || route.name === "newagent" || route.name === "prospect" || route.name === "newprospect") && goBack()) return;
+  if(["today","clients","agents","recruiter","more"].indexOf(route.name) < 0 && me()){ goTab("today"); return; }
+  if(route.name !== "today" && me()){ goTab("today"); return; }
+  if(window.AndroidBridge && AndroidBridge.exitApp) AndroidBridge.exitApp();
+};
+
+/* ================= Toast ================= */
+var toastTimer = null;
+function toast(head, text){
+  document.getElementById("toastHead").textContent = head;
+  document.getElementById("toastText").textContent = text;
+  var t = document.getElementById("toast");
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.classList.remove("show"); }, 4200);
+}
+document.getElementById("toastX").addEventListener("click", function(){
+  document.getElementById("toast").classList.remove("show"); clearTimeout(toastTimer);
+});
+
+/* ================= Logo ================= */
+function logoSVG(size, light){
+  var ring = light ? "#ffffff" : "#0f2440";
+  return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="'+ring+'"/><g fill="'+ring+'"><rect x="21.5" y="1" width="5" height="9" rx="2"/><rect x="21.5" y="38" width="5" height="9" rx="2"/><rect x="1" y="21.5" width="9" height="5" rx="2"/><rect x="38" y="21.5" width="9" height="5" rx="2"/><rect x="6" y="8" width="5" height="9" rx="2" transform="rotate(-45 8.5 12.5)"/><rect x="37" y="31" width="5" height="9" rx="2" transform="rotate(-45 39.5 35.5)"/><rect x="31" y="6" width="5" height="9" rx="2" transform="rotate(45 33.5 10.5)"/><rect x="12" y="33" width="5" height="9" rx="2" transform="rotate(45 14.5 37.5)"/></g><circle cx="24" cy="24" r="14.5" fill="#f2a81d"/><path d="M24 15.5 32 23v9.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 16 32.5V23z" fill="#0f2440"/><rect x="21.4" y="27.5" width="5.2" height="6.5" rx="1" fill="#f2a81d"/></svg>';
+}
+
+/* ================= Shared bits ================= */
+function sampleTag(x){ return x && x.sample ? '<span class="sample-tag">Sample</span>' : ""; }
+function pendingTag(c){ return c && c.setupPending ? '<span class="pending-tag">Setup pending</span>' : ""; }
+function greeting(){
+  var h = new Date().getHours();
+  return h<12 ? "Good morning" : (h<18 ? "Good afternoon" : "Good evening");
+}
+var TABS = [
+  { name:"today",   label:"Today",   svg:'<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9.5 21v-6h5v6"/>' },
+  { name:"clients", label:"Clients", svg:'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.2 3.4-5 6.5-5s5.7 1.8 6.5 5"/><circle cx="17.5" cy="9" r="2.8"/><path d="M15.5 15.2c2.9-.3 5.2 1.4 6 4.8"/>' },
+  { name:"agents",  label:"Agents",  svg:'<path d="M12 3a5 5 0 0 1 5 5c0 2.1-1.3 3.6-2.6 4.4-.9.6-1.4 1.3-1.4 2.6H11c0-1.3-.5-2-1.4-2.6C8.3 11.6 7 10.1 7 8a5 5 0 0 1 5-5z"/><path d="M10 20h4"/><path d="M10.8 17.2h2.4"/>' },
+  { name:"recruiter", label:"Recruiter", svg:'<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/>' },
+  { name:"more",    label:"More",    svg:'<circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/>' }
+];
+function renderTabbar(){
+  if(!me()){ tabbar.className = "tabbar hidden"; tabbar.innerHTML = ""; return; }
+  var qc = queueCount();
+  var pc = myPendingProspects().length;
+  tabbar.className = "tabbar";
+  tabbar.innerHTML = TABS.map(function(t){
+    var on = (route.name === t.name || (t.name === "clients" && (route.name === "client" || route.name === "newclient" || route.name === "codeshown")) || (t.name === "agents" && (route.name === "agentchat" || route.name === "agent" || route.name === "newagent")) || (t.name === "recruiter" && (route.name === "prospect" || route.name === "newprospect"))) ? " on" : "";
+    var badge = (t.name === "today" && qc > 0) ? '<span class="badge">'+qc+"</span>" : "";
+    if(t.name === "recruiter" && pc > 0) badge = '<span class="badge">'+pc+"</span>";
+    if(t.name === "agents"){ var aw = agentsWaitingCount(); if(aw > 0) badge = '<span class="badge">'+aw+"</span>"; }
+    return '<button class="tab'+on+'" data-act="tab" data-arg="'+t.name+'">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+t.svg+"</svg>" +
+      "<span>"+t.label+"</span>"+badge+"</button>";
+  }).join("");
+}
+function appbar(sub){
+  var p = me();
+  return '<div class="appbar"><div class="who">DIGITAL WORKSHOP · STAFF ONLY</div>' +
+    '<div class="greet">'+esc(greeting())+(p ? ", "+esc(p.short) : "")+"</div>" +
+    '<div class="biz">'+esc(sub||"")+"</div></div>";
+}
+
+/* ================= Views: sign-in & setup ================= */
+function viewLogin(){
+  var h = '<div class="login-view"><div class="logo-c">'+logoSVG(76,true)+"</div>" +
+    "<h2>Founder App</h2>" +
+    '<div class="mock-tag">Digital Workshop · Staff only</div>' +
+    '<p class="pick-note">Sign in with your founder account.</p>';
+  if(authError) h += '<div class="autherr">'+esc(authError)+"</div>";
+  h += '<div class="field"><label>Email</label><input id="si-email" type="email" autocomplete="off" placeholder="you@digitalworkshop.example" value="'+esc(loginEmailDraft)+'"></div>';
+  h += '<div class="field"><label>Password</label><input id="si-password" type="password" autocomplete="off" placeholder="Your password"></div>';
+  h += '<button class="btn btn-amber" data-act="sign-in">Sign in</button>';
+  h += '<button class="linkbtn" data-act="have-code">Have a setup code?</button>';
+  h += '<p class="fine">Live edition — this app reads the real Digital Workshop system.<br/>First time here? Your one-time setup code sets your password.</p></div>';
+  return h;
+}
+function viewSetupCode(){
+  var h = '<div class="login-view"><div class="logo-c">'+logoSVG(76,true)+"</div>" +
+    "<h2>Set up your account</h2>" +
+    '<div class="mock-tag">Digital Workshop · Staff only</div>' +
+    '<p class="pick-note">Enter your email and the one-time setup code you were given.</p>';
+  if(authError) h += '<div class="autherr">'+esc(authError)+"</div>";
+  h += '<div class="field"><label>Email</label><input id="sc-email" type="email" autocomplete="off" placeholder="you@digitalworkshop.example"></div>';
+  h += '<div class="field"><label>Setup code</label><input id="sc-code" type="text" autocomplete="off" placeholder="12-character code"></div>';
+  h += '<button class="btn btn-amber" data-act="check-code">Continue</button>';
+  h += '<button class="linkbtn" data-act="back-to-login">Back to sign in</button>';
+  h += '<p class="fine">Codes work once and live 48 hours. Wrong, expired, or used codes all get the same answer — nothing about which.</p></div>';
+  return h;
+}
+function viewSetupPassword(){
+  var h = '<div class="login-view"><div class="logo-c">'+logoSVG(76,true)+"</div>" +
+    "<h2>Set your password</h2>" +
+    '<div class="mock-tag">Digital Workshop · Staff only</div>' +
+    '<p class="pick-note">That code checks out. Pick the password for your founder account — you\'ll sign in with it from now on.</p>';
+  if(authError) h += '<div class="autherr">'+esc(authError)+"</div>";
+  h += '<div class="field"><label>New password</label><input id="sp-pass1" type="password" autocomplete="off" placeholder="At least 6 characters"></div>';
+  h += '<div class="field"><label>Again</label><input id="sp-pass2" type="password" autocomplete="off" placeholder="Same password again"></div>';
+  h += '<button class="btn btn-amber" data-act="redeem-code">Set password &amp; sign in</button>';
+  h += '<button class="linkbtn" data-act="back-to-login">Start over</button>';
+  h += '<p class="fine">We never see anyone\'s password — yours is stored scrambled, like everyone\'s.</p></div>';
+  return h;
+}
+function viewLoading(){
+  return '<div class="login-view"><div class="logo-c">'+logoSVG(76,true)+"</div>" +
+    "<h2>Founder App</h2>" +
+    '<div class="mock-tag">Digital Workshop · Staff only</div>' +
+    '<p class="pick-note">Signing you back in…</p></div>';
+}
+function viewBootError(){
+  var h = '<div style="padding:26px 0 0">' + appbar("Founder App");
+  h += '<div class="errbox" style="margin-top:16px"><b>Can\'t reach the system</b>' + esc(NET_ERROR) + "</div>";
+  h += '<button class="btn btn-amber" data-act="retry-boot">Try again</button>';
+  h += '<button class="btn btn-ghost" data-act="boot-signout">Sign out</button>';
+  h += '<p class="empty-note">Nothing here is stored on the phone — when the connection is back, everything is.</p></div>';
+  return h;
+}
+
+/* ================= Views: today ================= */
+function qrowBtn(c, icon, title, sub, prev, when){
+  return '<button class="qrow" data-act="open-client" data-arg="'+c.id+'"><span class="ic">'+icon+"</span>" +
+    '<span class="grow"><b>'+esc(title)+'</b><span class="sub">'+esc(sub)+"</span>" +
+    (prev ? '<span class="prev">“'+esc(prev)+'”</span>' : "") + "</span>" +
+    (when ? '<span class="when">'+esc(when)+"</span>" : "") + "</button>";
+}
+function viewToday(){
+  var p = me();
+  var q = computeQueue();
+  var total = clientsCache.length;
+  var trials = clientsCache.filter(function(c){ return c.founderId && onTrial(c); }).length;
+  var paused = clientsCache.filter(function(c){ return c.siteStatus === "paused"; }).length;
+  var h = appbar("Founder App · "+p.label+" · Agent: "+p.agent);
+  h += '<div class="stats"><div class="stat"><b>'+total+'</b><span>Clients</span></div>' +
+       '<div class="stat"><b>'+trials+'</b><span>On free trial</span></div>' +
+       '<div class="stat"><b>'+paused+'</b><span>Paused</span></div></div>';
+  h += '<div class="sec-title">Needs attention</div>';
+  var any = false;
+  q.flags.forEach(function(f){
+    any = true;
+    var c = clientById(f.business_id), ag = agentById(f.agent_id);
+    h += qrowBtn(c || { id:f.business_id }, "🚩", (ag ? ag.name : "Agent")+" flagged — "+(c ? c.name : "A client"),
+      "Raised for you · Tap to open her page", f.body, timeAgo(Date.parse(f.created_at) || Date.now()));
+  });
+  q.waiting.forEach(function(c){
+    any = true;
+    var m = lastOwnerMsg(c), fp = partnerById(c.founderId);
+    h += qrowBtn(c, "💬", "Chat waiting — "+c.name,
+      "Founder: "+(fp?fp.label:"—")+" · Agent: "+(c.agent||"—"),
+      m ? m.text : "", m ? timeAgo(m.ts) : "");
+  });
+  q.day7.forEach(function(c){
+    any = true;
+    var fp = partnerById(c.founderId);
+    h += qrowBtn(c, "📊", "Day-7 report due — "+c.name,
+      "Founder: "+(fp?fp.label:"—")+" · Agent: "+(c.agent||"—")+" · Free trial day "+trialDay(c)+" of 7",
+      "", "");
+  });
+  q.paused.forEach(function(c){
+    any = true;
+    var fp = partnerById(c.founderId);
+    h += qrowBtn(c, "⏸", "Site paused — "+c.name,
+      "Founder: "+(fp?fp.label:"—")+" · "+c.cardState+" · Nothing is deleted", "", "");
+  });
+  q.pool.forEach(function(c){
+    any = true;
+    h += '<div class="qrow"><span class="ic">🆕</span><span class="grow"><b>New client in the pool — '+esc(c.name)+'</b>' +
+      '<span class="sub">Signed up on the website · Unclaimed · Fitting not started</span></span>' +
+      '<button class="claimbtn" data-act="claim" data-arg="'+c.id+'">Claim for '+esc(p.short)+"</button></div>";
+  });
+  q.fittingDone.forEach(function(c){
+    any = true;
+    h += '<div class="qrow quiet"><span class="ic">✓</span><span class="grow"><b>Fitting finished — '+esc(c.name)+'</b>' +
+      '<span class="sub">Summary is in her chat · Nothing waiting</span></span></div>';
+  });
+  if(!any) h += '<p class="empty-note">All quiet — nothing needs a founder right now.</p>';
+  return h;
+}
+
+/* ================= Views: clients ================= */
+function clientCard(c){
+  var fp = partnerById(c.founderId);
+  var assign = c.founderId
+    ? "Founder: "+fp.label+" · Chat agent: "+(c.agent||"—")
+    : "Founder: — · Chat agent: —";
+  return '<button class="card" data-act="open-client" data-arg="'+c.id+'">' +
+    '<span class="rowline"><h3>'+esc(c.name)+sampleTag(c)+pendingTag(c)+'</h3><span class="chev">›</span></span>' +
+    "<p>"+esc(assign)+"</p><p>"+esc(statusLine(c))+"</p></button>";
+}
+function viewClients(){
+  var p = me();
+  var h = appbar("Clients · signed in as "+p.label);
+  h += '<button class="btn btn-amber" data-act="new-client" style="margin-top:14px">＋ New Client</button>';
+  h += '<div class="seg"><button class="'+(clientsFilter==="mine"?"on":"")+'" data-act="seg" data-arg="mine">Mine</button>' +
+       '<button class="'+(clientsFilter==="everyone"?"on":"")+'" data-act="seg" data-arg="everyone">Everyone</button></div>';
+  if(clientsFilter === "mine"){
+    var mine = clientsOf(p.id);
+    h += '<div class="sec-title">My clients — '+esc(p.label)+"</div>";
+    h += mine.length ? mine.map(clientCard).join("") : '<p class="empty-note">No clients yet. Claim one from the pool on Today.</p>';
+  } else {
+    var g = groupClients();
+    g.groups.forEach(function(gr){
+      h += '<div class="sec-title">'+esc(gr.partner.label)+" — "+gr.clients.length+" client"+(gr.clients.length===1?"":"s")+" · Agent: "+esc(gr.partner.agent)+"</div>";
+      h += gr.clients.length ? gr.clients.map(clientCard).join("") : '<p class="empty-note">No clients yet.</p>';
+    });
+    h += '<div class="sec-title">Unassigned — the pool</div>';
+    h += g.pool.length ? g.pool.map(clientCard).join("") : '<p class="empty-note">The pool is empty.</p>';
+  }
+  return h;
+}
+
+/* ================= Views: client page ================= */
+function bubbleFor(c, m){
+  var who, cls;
+  if(m.from === "owner"){ who = m.name || "Owner"; cls = "bubble"; }
+  else if(m.from === "founder"){ who = (m.name || "Founder")+" · Founder"; cls = "bubble founder"; }
+  else if(m.from === "system"){ who = "Digital Workshop"; cls = "bubble agent"; }
+  else { who = m.name || c.agent || "Agent";
+    cls = "bubble agent" + (m.kind === "change" ? " change" : (m.kind === "summary" ? " summary" : "")); }
+  /* Change cards arrive with their full "Done ✓ — …" text in body
+     (the back end composes it); changeSummary rides along as data. */
+  return '<div class="'+cls+'"><div class="who">'+esc(who)+"</div>"+esc(m.text) +
+    '<div class="meta">'+esc(timeAgo(m.ts))+"</div></div>";
+}
+function viewClient(c){
+  var p = me();
+  var fp = partnerById(c.founderId);
+  var d = trialDay(c);
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Back</button><h3>'+esc(c.name)+"</h3>"+sampleTag(c)+"</div>";
+  h += '<div class="detail-body">';
+  h += '<div class="chiprow">' +
+    (c.siteStatus === "paused" ? '<span class="chip paused">Site paused</span>' : '<span class="chip live">Site live</span>') +
+    (d !== null ? '<span class="chip trial">Free trial day '+d+" of 7</span>" : "") +
+    '<span class="chip card">'+esc(c.cardState)+"</span>" +
+    (c.setupPending ? '<span class="chip pool">Setup pending</span>' : "") +
+    (c.founderId ? "" : '<span class="chip pool">Unassigned</span>') + "</div>";
+  /* flags raised for me on this client */
+  var flags = flagsFor(c.id).filter(function(f){ return session && f.founder_id === session.founderId; });
+  if(flags.length){
+    h += '<div class="card"><h3>Flags from her agent</h3>';
+    flags.forEach(function(f){
+      var ag = agentById(f.agent_id);
+      h += '<div class="kvblock"><span>'+esc(ag ? ag.name : "Agent")+" · "+esc(timeAgo(Date.parse(f.created_at) || Date.now()))+"</span><div>"+esc(f.body)+"</div>" +
+        '<button class="btn btn-ghost small" data-act="dismiss-flag" data-arg="'+f.id+'">Dismiss</button></div>';
+    });
+    h += "</div>";
+  }
+  /* record */
+  var r = c.record || {};
+  h += '<div class="card"><h3>Her record</h3>';
+  if(c.ownerName) h += '<div class="kv"><span>Owner</span><b>'+esc(c.ownerName)+"</b></div>";
+  if(c.ownerEmail) h += '<div class="kv"><span>Sign-in email</span><b>'+esc(c.ownerEmail)+"</b></div>";
+  if(!c.fittingDone && !r.hours){
+    h += "<p>The record isn't built yet — her fitting hasn't happened. It fills in during the fitting chat.</p>";
+  } else {
+    if(r.hours) h += '<div class="kv"><span>Hours</span><b>'+esc(r.hours)+"</b></div>";
+    if(r.services && r.services.length) h += '<div class="kvblock"><span>Services</span><div>'+esc(r.services.join(" · "))+"</div></div>";
+    if(r.prices) h += '<div class="kv"><span>Prices</span><b>'+esc(r.prices)+"</b></div>";
+    if(r.phone) h += '<div class="kv"><span>Phone</span><b>'+esc(r.phone)+"</b></div>";
+    if(r.area) h += '<div class="kv"><span>Service area</span><b>'+esc(r.area)+"</b></div>";
+    if(r.walkIns) h += '<div class="kv"><span>Walk-ins</span><b>'+esc(r.walkIns)+"</b></div>";
+    if(r.golden) h += '<div class="kvblock"><span>Customers always ask</span><div>“'+esc(r.golden)+'”</div></div>';
+  }
+  h += "</div>";
+  /* sign-in & setup code */
+  h += '<div class="card"><h3>Her sign-in &amp; setup code</h3>';
+  if(!c.setupKnown){
+    h += "<p>Her sign-in details are visible to her founder.</p>";
+  } else if(!c.setupPending){
+    h += "<p>Setup complete ✓ — she has set her own password. We never see it.</p>";
+  } else {
+    h += "<p><b>Setup pending.</b> "+esc(c.ownerName || "She")+" hasn't set her password yet. Her one-time code was shown once, when she was created — codes live 48 hours and aren't kept here.</p>";
+    h += "<p>If she lost it, revoke it and issue a fresh one:</p>";
+    if(c.founderId === p.id) h += '<button class="btn btn-ghost small" data-act="reissue-code" data-arg="'+c.id+'">Revoke &amp; reissue</button>';
+    else h += "<p>Only her founder can reissue her code.</p>";
+  }
+  h += "</div>";
+  /* assignment */
+  h += '<div class="card"><h3>Assignment</h3>';
+  h += '<div class="kvblock"><span>Founder</span><div class="pickrow">' + partnerList().map(function(pp){
+    return '<button data-act="set-founder" data-arg="'+c.id+":"+pp.id+'" class="'+(c.founderId===pp.id?"on":"")+'">'+esc(pp.label)+"</button>";
+  }).join("") + "</div></div>";
+  h += '<div class="kvblock"><span>Chat agent</span>';
+  if(!c.founderId){
+    h += '<div class="assign-note">Assign a founder first — his agent takes her chat.</div>';
+  } else {
+    h += '<div class="pickrow">' + agentsOf(c.founderId).map(function(a){
+      return '<button data-act="set-agent" data-arg="'+c.id+":"+a.id+'" class="'+(c.agentId===a.id?"on":"")+'">'+esc(a.name)+"</button>";
+    }).join("") + "</div>";
+    h += '<div class="assign-note">Agents belong to their partner. Her record and chat history travel with her if the agent changes.</div>';
+  }
+  h += "</div></div>";
+  /* activity */
+  if(c.founderId === p.id){
+    h += '<div class="card"><h3>Activity</h3>' +
+      '<div class="kv"><span>Bookings</span><b>'+c.activity.bookings+"</b></div>" +
+      '<div class="kv"><span>Open questions</span><b>'+c.activity.openQuestions+"</b></div></div>";
+  }
+  /* chat */
+  h += '<div class="card"><h3>Her chat</h3>';
+  if(!c.chat.length) h += "<p>No chat yet — her fitting hasn't happened.</p>";
+  else h += c.chat.map(function(m){ return bubbleFor(c, m); }).join("");
+  if(c.founderId === p.id){
+    h += '<div class="replybox"><textarea id="replyText" placeholder="Reply as '+esc(p.label)+' — for the human moments"></textarea>' +
+      '<button data-act="send-reply" data-arg="'+c.id+'">Send</button></div>';
+    h += '<div class="assign-note">Your reply lands in her app labeled with your name.</div>';
+  } else {
+    h += '<div class="assign-note">Her founder replies here — you\'re viewing as staff.</div>';
+  }
+  h += "</div>";
+  /* danger zone: no delete path exists in the back end for founders */
+  if(deleteArmedId === c.id){
+    h += '<div class="card" style="background:var(--warn-bg);border-color:#eed9a4"><h3>Deleting isn\'t in this app yet</h3>' +
+      "<p>A client is removed from the system dashboard for now — not from this phone. Her record, chat thread, and setup code stay exactly as they are until then.</p>" +
+      '<button class="btn btn-ghost small" data-act="delete-cancel">Got it</button></div>';
+  } else {
+    h += '<button class="btn btn-danger" data-act="delete-client" data-arg="'+c.id+'" style="margin-left:0;margin-right:0;width:100%">Delete this client</button>';
+  }
+  h += "</div>";
+  return h;
+}
+
+/* ================= Views: new client + setup code ================= */
+function viewNewClient(){
+  var p = me();
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Back</button><h3>New client</h3></div>';
+  h += '<p style="margin:6px 16px 14px;font-size:14.5px;color:var(--muted)">She lands under '+esc(p.label)+" with "+esc(p.agent)+' on her chat, her free week starting today. You get a one-time setup code to text her — she sets her own password with it. We never see it.</p>';
+  h += '<div class="field"><label>Business name</label><input id="nc-biz" type="text" autocomplete="off" placeholder="e.g. Sunny Day Bakery"></div>';
+  h += '<div class="field"><label>Owner name</label><input id="nc-owner" type="text" autocomplete="off" placeholder="e.g. Sam"></div>';
+  h += '<div class="field"><label>Owner email — her username</label><input id="nc-email" type="email" autocomplete="off" placeholder="name@herbusiness.com"></div>';
+  h += '<button class="btn btn-amber" data-act="create-client">Create client &amp; get her code</button>';
+  return h;
+}
+function viewCodeShown(){
+  var c = shownCode ? clientById(shownCode.clientId) : null;
+  var reissued = shownCode && shownCode.mode === "reissued";
+  var h = '<div class="subbar"><h3 style="margin-left:8px">'+(reissued ? "New code issued" : "Client created")+"</h3></div>";
+  h += '<div class="detail-body">';
+  if(!c || !shownCode){
+    h += '<div class="card"><h3>That code has been shown</h3><p>Setup codes are shown once. If she lost hers, open her page and use Revoke &amp; reissue.</p></div>';
+    h += '<button class="btn btn-ghost" data-act="tab" data-arg="clients">Back to Clients</button>';
+  } else {
+    h += '<div class="card"><h3>✓ '+esc(c.name)+'</h3><p>Text '+esc(c.ownerName || "her")+' this one-time setup code. She enters it with her email ('+esc(c.ownerEmail || "")+') on the Owner App\'s "Have a setup code?" screen and sets her own password.</p>';
+    h += '<div class="codebox">'+esc(shownCode.code)+"</div>";
+    h += "<p>Shown once. Works one time — expires "+esc(fmtExpiry(shownCode.expiresAt))+".</p>";
+    h += '<button class="btn btn-navy small" data-act="copy-shown-code">Copy code</button></div>';
+    h += '<button class="btn btn-amber" data-act="open-client" data-arg="'+c.id+'">Open her page</button>';
+    h += '<button class="btn btn-ghost" data-act="tab" data-arg="clients">Back to Clients</button>';
+  }
+  h += "</div>";
+  return h;
+}
+
+/* ================= Views: agents (v0.7.0) =================
+   John's model: the tab shows ONLY my agents, organized by level —
+   FIND (my recruiter), DIRECT (my chief of staff = main agent),
+   OWN (my employees, each owning clients start to finish). Partners
+   manage their own agents on their own tabs. */
+function agentAvatar(a, size){
+  var bg = a.is_main ? "#0f2440" : (agentLevel(a) === "find" ? "#7a5fb0" : "#5b6b84");
+  var letter = (a.name || "?").trim().charAt(0).toUpperCase() || "?";
+  return '<span style="flex:none;width:'+size+'px;height:'+size+'px;border-radius:50%;background:'+bg+';color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:'+Math.round(size*0.42)+'px">'+esc(letter)+"</span>";
+}
+function agentRow(a){
+  var n = staffCount(a.id), w = waitingCount(a.id);
+  var pill = a.is_main ? '<span class="chip card">Chief of Staff · Main</span>'
+    : (agentLevel(a) === "find" ? '<span class="chip card">Recruiter</span>'
+    : (agentLevel(a) === "direct" ? '<span class="chip card">Chief of Staff</span>' : ""));
+  var sub = (a.job ? esc(a.job) + " · " : "") + "Staffs " + n + " client" + (n===1?"":"s") + " · " + w + " waiting";
+  var wm = agentWaitingMsg(a);
+  var wbox = wm ? '<span class="waitbox"><span class="wt"><span class="dot"></span><span class="wl">NEW MESSAGE WAITING</span><span class="wtm">'+esc(fmtClock(wm.created_at))+'</span></span><span class="wp">'+esc(wm.body)+"</span></span>" : "";
+  return '<button class="card" data-act="open-agent" data-arg="'+a.id+'">' +
+    '<span style="display:flex;gap:12px;align-items:center">' + agentAvatar(a, 46) +
+    '<span style="flex:1;min-width:0"><span style="display:block;font-size:16.5px;font-weight:700">'+esc(a.name)+" "+pill+"</span>" +
+    '<span style="display:block;font-size:14px;color:var(--muted);margin-top:1px">'+sub+"</span>"+wbox+"</span>" +
+    '<span class="chev">›</span></span></button>';
+}
+function viewAgents(){
+  var p = me();
+  var mine = agentsOf(p.id);
+  var find = mine.filter(function(a){ return agentLevel(a) === "find"; });
+  var direct = mine.filter(function(a){ return agentLevel(a) === "direct"; });
+  var own = mine.filter(function(a){ return agentLevel(a) === "own"; });
+  var h = appbar("Agents · yours to create and assign");
+  h += '<div class="sec-title">1 · Find — your recruiter</div>';
+  h += find.length ? find.map(agentRow).join("") : '<p class="empty-note">No recruiter yet. Create an agent and give it the job “Client recruiter” — it will hunt for clients and feed the Recruiter board.</p>';
+  h += '<div class="sec-title">2 · Direct — your chief of staff</div>';
+  h += direct.length ? direct.map(agentRow).join("") : '<p class="empty-note">No chief of staff yet.</p>';
+  h += '<div class="sec-title">3 · Own — your employees, start to finish</div>';
+  h += own.length ? own.map(agentRow).join("") : '<p class="empty-note">No employees yet. Create one below — each employee owns their clients from the first build to the ongoing chat.</p>';
+  h += '<button class="btn btn-amber" data-act="new-agent" style="margin-top:6px">＋ Create agent</button>';
+  h += '<p class="empty-note" style="margin-top:2px">Partners manage their own agents on their own tabs.</p>';
+  return h;
+}
+function viewNewAgent(){
+  var p = me();
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Back</button><h3>Create agent</h3></div>';
+  h += '<p style="margin:6px 16px 14px;font-size:14.5px;color:var(--muted)">Name it and give it a job. It gets its own prompt and its own key, and you assign it to clients from its page. It works for '+esc(p.label)+" only.</p>";
+  h += '<div class="field"><label>Agent name</label><input id="na-name" type="text" autocomplete="off" placeholder="e.g. Scout, Booker, Wren"></div>';
+  h += '<div class="field"><label>Its job</label><input id="na-job" type="text" autocomplete="off" placeholder="e.g. Client recruiter"></div>';
+  h += '<div class="pickrow" style="margin:0 16px 12px">' +
+    '<button data-act="job-chip" data-arg="Client recruiter">Client recruiter</button>' +
+    '<button data-act="job-chip" data-arg="Chief of Staff">Chief of Staff</button>' +
+    '<button data-act="job-chip" data-arg="Owns clients, start to finish">Owns clients, start to finish</button></div>';
+  h += '<button class="btn btn-amber" data-act="create-agent">Create agent</button>';
+  h += '<p class="empty-note">A job of “Client recruiter” puts it at the Find level. Your main agent is your Chief of Staff. Everyone else owns clients.</p>';
+  return h;
+}
+
+/* ================= Views: agent page (tabbed) ================= */
+function viewAgent(agentId){
+  var p = me();
+  var a = agentById(agentId);
+  if(!p || !a || a.founder_id !== p.id) return viewAgents();
+  var n = staffCount(a.id);
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Agents</button><h3>'+esc(a.name)+"</h3>" + (a.is_main ? '<span class="chip card">Chief of Staff · Main</span>' : "") + "</div>";
+  h += '<div class="detail-body">';
+  h += '<p style="margin:2px 0 4px;font-size:14.5px;color:var(--muted)">'+esc(p.label)+(a.job ? " · "+esc(a.job) : "")+" · Staffs "+n+" client"+(n===1?"":"s")+"</p>";
+  h += '<div class="seg" style="margin:10px 0 14px">' +
+    '<button class="'+(agentPageTab==="chat"?"on":"")+'" data-act="agent-tab" data-arg="chat">Chat</button>' +
+    '<button class="'+(agentPageTab==="clients"?"on":"")+'" data-act="agent-tab" data-arg="clients">Clients ('+n+")</button>" +
+    '<button class="'+(agentPageTab==="key"?"on":"")+'" data-act="agent-tab" data-arg="key">Prompt &amp; key</button></div>';
+  if(agentPageTab === "chat"){
+    var thread = agentThreadCache[a.id] || [];
+    h += '<div class="sysnote">Live — your messages save to the Digital Workshop system, and '+esc(a.name)+' sees them here. She answers in this thread from her side; nothing here is ever filled in for her.</div>';
+    if(!thread.length){
+      h += '<p class="empty-note" style="margin-left:0;margin-right:0">No messages yet. Ask '+esc(a.name)+' a question, or leave her a note.</p>';
+    } else {
+      h += thread.map(function(m){
+        if(m.from === "agent"){
+          return '<div class="bubble agent"><div class="who">'+esc(a.name)+"</div>"+esc(m.text) +
+            '<div class="meta">'+esc(timeAgo(m.ts))+"</div></div>";
+        }
+        return '<div class="bubble founder"><div class="who">'+esc(p.label)+"</div>"+esc(m.text) +
+          '<div class="meta">'+esc(timeAgo(m.ts))+"</div></div>";
+      }).join("");
+    }
+    h += '<div class="replybox"><textarea id="agentChatText" placeholder="Message '+esc(a.name)+'"></textarea>' +
+      '<button data-act="send-agent-chat" data-arg="'+esc(p.id)+":"+esc(a.id)+'">Send</button></div>';
+  }
+  if(agentPageTab === "clients"){
+    var mine = clientsOf(p.id).filter(function(c){ return c.agentId === a.id; });
+    h += '<div class="sec-title" style="margin-left:0">Clients she staffs</div>';
+    h += mine.length ? mine.map(function(c){ return clientCard(c); }).join("") : '<p class="empty-note" style="margin-left:0;margin-right:0">No clients yet.</p>';
+    var pool = poolClients();
+    if(pool.length){
+      h += '<div class="sec-title" style="margin-left:0">In the pool — assign to '+esc(a.name)+'</div>';
+      h += pool.map(function(c){
+        return '<div class="qrow"><span class="ic">🆕</span><span class="grow"><b>'+esc(c.name)+'</b><span class="sub">Unassigned · in the pool</span></span>' +
+          '<button class="claimbtn" data-act="assign-pool" data-arg="'+c.id+":"+a.id+'">Assign</button></div>';
+      }).join("");
+    }
+    h += '<p class="empty-note" style="margin-left:0;margin-right:0">To move one of your other clients to '+esc(a.name)+', open the client\'s page and use Assignment.</p>';
+  }
+  if(agentPageTab === "key"){
+    h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>Prompt &amp; key</h3>' +
+      "<p>Copying the full prompt issues a <b>fresh key</b> and turns the old one off. The prompt is the whole handoff — keep it private.</p>" +
+      '<button class="btn btn-navy small" data-act="copy-agent-key" data-arg="'+a.id+'">Copy full prompt with key</button> ' +
+      '<button class="btn btn-ghost small" data-act="copy-agent" data-arg="'+a.id+'">Copy prompt (no key)</button> ' +
+      '<button class="btn btn-ghost small" data-act="revoke-key" data-arg="'+a.id+'">Revoke key</button></div>';
+    h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>Role</h3>';
+    if(a.is_main){
+      h += "<p>This is your main agent — your Chief of Staff. New clients attach to her until you say otherwise.</p>";
+    } else {
+      h += '<button class="btn btn-ghost small" data-act="make-main" data-arg="'+a.id+'">Make main agent</button>';
+      h += '<p style="margin-top:8px">Your main agent is your Chief of Staff — new clients attach to her by default.</p>';
+    }
+    h += "</div>";
+    if(!a.is_main){
+      if(removeArmedAgentId === a.id){
+        h += '<div class="card" style="margin:0;width:100%;background:var(--warn-bg);border-color:#eed9a4"><h3>Remove '+esc(a.name)+'</h3>' +
+          "<p>Her clients move to your main agent, her key stops working, and her chat thread goes with her. This can't be undone.</p>" +
+          '<button class="btn btn-danger-fill small" data-act="remove-agent-confirm" data-arg="'+a.id+'">Remove her</button> ' +
+          '<button class="btn btn-ghost small" data-act="remove-agent-cancel">Keep her</button></div>';
+      } else {
+        h += '<button class="btn btn-danger" data-act="remove-agent" data-arg="'+a.id+'" style="margin:0;width:100%">Remove this agent</button>';
+      }
+    }
+  }
+  h += "</div>";
+  return h;
+}
+
+/* ================= Views: recruiter board (v0.7.0) =================
+   John's design (picked 2026-11-19): one shared board, three stages —
+   New in → Pending (with a chief of staff) → Assigned (to an employee).
+   Every founder sees everything; only the holding founder acts. */
+function rotationFounders(){
+  if(!db) return [];
+  return db.founders.filter(function(f){ return f.in_rotation; });
+}
+function prospectPill(x){
+  if(x.status === "new") return '<span class="chip live">New in</span>';
+  if(x.status === "pending") return '<span class="chip trial">Pending</span>';
+  if(x.status === "assigned"){
+    var fp = partnerById(x.assigned_founder_id);
+    return '<span class="chip card">→ '+esc(fp ? fp.label : "Assigned")+"</span>";
+  }
+  return '<span class="chip paused">Rejected</span>';
+}
+function prospectCard(x){
+  var fp = x.assigned_founder_id ? partnerById(x.assigned_founder_id) : null;
+  var ag = x.assigned_agent_id ? agentById(x.assigned_agent_id) : null;
+  var sub2 = "";
+  if(x.status === "pending"){
+    var pl = packetLine(x.packet);
+    sub2 = (pl ? esc(pl) : "Packet: —") + (fp ? " · with "+esc(fp.agent) : "");
+  }
+  if(x.status === "assigned"){
+    sub2 = ag ? "Employee: "+esc(ag.name)+(x.packet && x.packet.stage ? " · "+esc(x.packet.stage) : "")
+              : (fp ? "With "+esc(fp.label)+"'s team" : "");
+  }
+  return '<button class="card" data-act="open-prospect" data-arg="'+x.id+'">' +
+    '<span class="rowline"><h3>'+esc(x.business_name)+'</h3>'+prospectPill(x)+"</span>" +
+    "<p>"+esc([x.city, x.fit_reason].filter(Boolean).join(" · "))+"</p>" +
+    (sub2 ? "<p>"+sub2+"</p>" : "") + "</button>";
+}
+function viewRecruiter(){
+  var p = me();
+  var news = prospectsByStatus("new"), pend = prospectsByStatus("pending"),
+      asg = prospectsByStatus("assigned"), rej = prospectsByStatus("rejected");
+  var h = appbar("Recruiter · Scout's board · everyone sees it");
+  h += '<div class="sec-title">New in · '+news.length+"</div>";
+  h += news.length ? news.map(prospectCard).join("") : '<p class="empty-note">Nothing yet. When Scout finds a fit, it lands here and every founder sees it.</p>';
+  h += '<div class="sec-title">Pending · waiting on a chief of staff · '+pend.length+"</div>";
+  h += pend.length ? pend.map(prospectCard).join("") : '<p class="empty-note">Nothing waiting on a Chief of Staff.</p>';
+  h += '<div class="sec-title">Assigned · '+asg.length+"</div>";
+  h += asg.length ? asg.map(prospectCard).join("") : '<p class="empty-note">No assignments yet.</p>';
+  if(rej.length){
+    h += '<div class="sec-title">Rejected · '+rej.length+"</div>";
+    h += rej.map(prospectCard).join("");
+  }
+  h += '<button class="btn btn-amber" data-act="new-prospect" style="margin-top:8px">＋ Add prospect</button>';
+  h += '<p class="empty-note">Scout brings them in; until he is live, add prospects by hand. Assignment splits equally between Partner 1 and Partner 2 — Partner 3 takes the human calls instead.</p>';
+  return h;
+}
+function viewProspect(id){
+  var p = me();
+  var x = prospectById(id);
+  if(!x) return viewRecruiter();
+  var fp = x.assigned_founder_id ? partnerById(x.assigned_founder_id) : null;
+  var ag = x.assigned_agent_id ? agentById(x.assigned_agent_id) : null;
+  var pk = x.packet || {};
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Board</button><h3>'+esc(x.business_name)+"</h3>"+prospectPill(x)+"</div>";
+  h += '<div class="detail-body">';
+  h += '<p style="margin:2px 0 10px;font-size:14px;color:var(--muted)">Found '+(x.source === "scout" ? "by Scout" : "by hand")+" · "+esc(timeAgo(Date.parse(x.created_at) || Date.now()))+" · packet UNCONFIRMED</p>";
+  h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>Why it fits</h3><p>'+esc(x.fit_reason || "—")+"</p></div>";
+  var rows = "";
+  if(pk.phone) rows += '<div class="kv"><span>Phone</span><b>'+esc(pk.phone)+"</b></div>";
+  if(pk.hours) rows += '<div class="kv"><span>Hours</span><b>'+esc(pk.hours)+"</b></div>";
+  if(pk.services) rows += '<div class="kvblock"><span>Services</span><div>'+esc(pk.services)+"</div></div>";
+  if(pk.photos) rows += '<div class="kv"><span>Photos</span><b>'+esc(pk.photos)+"</b></div>";
+  if(pk.reviews) rows += '<div class="kv"><span>Reviews</span><b>'+esc(pk.reviews)+"</b></div>";
+  Object.keys(pk).forEach(function(k){
+    if(["phone","hours","services","photos","reviews","stage"].indexOf(k) >= 0) return;
+    rows += '<div class="kv"><span>'+esc(k)+"</span><b>"+esc(String(pk[k]))+"</b></div>";
+  });
+  h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>The packet</h3>' +
+    (rows || "<p>Nothing collected yet.</p>") +
+    '<p style="margin-top:8px">All public, to be confirmed at the fitting. Nothing here is invented — gaps stay gaps.</p></div>';
+  /* actions by stage */
+  if(x.status === "new"){
+    rotationFounders().forEach(function(f){
+      var cos = mainAgentOf(f.id);
+      h += '<button class="btn '+(f.id === p.id ? "btn-amber" : "btn-navy")+'" data-act="prospect-to-cos" data-arg="'+x.id+":"+f.id+'">Assign to '+esc(f.label)+" · "+esc(cos ? cos.name : "Chief of Staff")+" (Chief of Staff)</button>";
+    });
+    h += '<button class="btn btn-ghost" data-act="prospect-auto" data-arg="'+x.id+'">Auto-assign — equal split</button>';
+    h += '<button class="btn btn-danger" data-act="prospect-reject" data-arg="'+x.id+'" style="margin-left:0;margin-right:0;width:100%">Reject — doesn\'t fit</button>';
+  }
+  if(x.status === "pending"){
+    if(x.assigned_founder_id === p.id){
+      h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>With you — pick the employee</h3>';
+      h += '<div class="pickrow">' + agentsOf(p.id).map(function(a){
+        return '<button data-act="prospect-employee" data-arg="'+x.id+":"+a.id+'">'+esc(a.name)+"</button>";
+      }).join("") + "</div>";
+      h += '<p>She takes the client start to finish: builds the site, makes contact, keeps the chat.</p></div>';
+      rotationFounders().forEach(function(f){
+        if(f.id === p.id) return;
+        h += '<button class="btn btn-ghost" data-act="prospect-to-cos" data-arg="'+x.id+":"+f.id+'">Hand to '+esc(f.label)+"</button>";
+      });
+    } else {
+      h += '<div class="honest"><b>With '+esc(fp ? fp.label : "another founder")+'</b>You can see it. Only '+(fp ? esc(fp.agent) : "their Chief of Staff")+' can act on it.</div>';
+    }
+    h += '<button class="btn btn-danger" data-act="prospect-reject" data-arg="'+x.id+'" style="margin-left:0;margin-right:0;width:100%">Reject — doesn\'t fit</button>';
+  }
+  if(x.status === "assigned"){
+    h += '<div class="card" style="margin:0 0 12px;width:100%"><h3>Assigned</h3>' +
+      '<div class="kv"><span>Founder</span><b>'+esc(fp ? fp.label : "—")+"</b></div>" +
+      '<div class="kv"><span>Employee</span><b>'+esc(ag ? ag.name : "—")+"</b></div></div>";
+    if(x.assigned_founder_id === p.id){
+      h += '<button class="btn btn-ghost" data-act="prospect-reopen" data-arg="'+x.id+'" style="margin-left:0;margin-right:0;width:100%">Back to the board (New in)</button>';
+    }
+  }
+  if(x.status === "rejected"){
+    h += '<button class="btn btn-amber" data-act="prospect-reopen" data-arg="'+x.id+'" style="margin-left:0;margin-right:0;width:100%">Reopen — back to New in</button>';
+  }
+  h += "</div>";
+  return h;
+}
+function viewNewProspect(){
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Board</button><h3>Add prospect</h3></div>';
+  h += '<p style="margin:6px 16px 14px;font-size:14.5px;color:var(--muted)">What Scout would collect, typed in by hand. Public facts only — everything gets confirmed at the fitting.</p>';
+  h += '<div class="field"><label>Business name</label><input id="np-name" type="text" autocomplete="off" placeholder="e.g. San Leandro Bakery"></div>';
+  h += '<div class="field"><label>City</label><input id="np-city" type="text" autocomplete="off" placeholder="e.g. San Leandro"></div>';
+  h += '<div class="field"><label>Why it fits</label><input id="np-fit" type="text" autocomplete="off" placeholder="e.g. Website broken since 2023"></div>';
+  h += '<div class="field"><label>Phone (public)</label><input id="np-phone" type="text" autocomplete="off" placeholder="(510) 555-0147"></div>';
+  h += '<div class="field"><label>Hours</label><input id="np-hours" type="text" autocomplete="off" placeholder="Tue–Sat · 7 AM – 3 PM"></div>';
+  h += '<div class="field"><label>Services</label><input id="np-services" type="text" autocomplete="off" placeholder="Breads · Pastries · Custom cakes"></div>';
+  h += '<div class="field"><label>Reviews</label><input id="np-reviews" type="text" autocomplete="off" placeholder="214 reviews · 4.8★"></div>';
+  h += '<button class="btn btn-amber" data-act="create-prospect">Add to the board</button>';
+  return h;
+}
+
+/* ================= Views: founder ↔ agent chat ================= */
+function viewAgentChat(param){
+  var p = me();
+  var sel = parseAgentChatParam(param);
+  var agent = agentById(sel.agentId);
+  /* The chat is private to a founder and his own agent — any other
+     pairing (or a signed-out session) falls back to the rosters. */
+  if(!p || !agent || sel.founderId !== p.id || agent.founder_id !== p.id) return viewAgents();
+  var thread = agentThreadCache[agent.id] || [];
+  var h = '<div class="subbar"><button class="backbtn" data-act="back">‹ Back</button><h3>Chat — '+esc(agent.name)+"</h3></div>";
+  h += '<div class="detail-body">';
+  h += '<div class="sysnote">Live — your messages save to the Digital Workshop system, and '+esc(agent.name)+' sees them here. She answers in this thread from her side; nothing here is ever filled in for her.</div>';
+  if(!thread.length){
+    h += '<p class="empty-note" style="margin-left:0;margin-right:0">No messages yet. Ask '+esc(agent.name)+' a question, or leave her a note.</p>';
+  } else {
+    h += thread.map(function(m){
+      if(m.from === "agent"){
+        return '<div class="bubble agent"><div class="who">'+esc(agent.name)+"</div>"+esc(m.text) +
+          '<div class="meta">'+esc(timeAgo(m.ts))+"</div></div>";
+      }
+      return '<div class="bubble founder"><div class="who">'+esc(p.label)+"</div>"+esc(m.text) +
+        '<div class="meta">'+esc(timeAgo(m.ts))+"</div></div>";
+    }).join("");
+  }
+  h += '<div class="replybox"><textarea id="agentChatText" placeholder="Message '+esc(agent.name)+'"></textarea>' +
+    '<button data-act="send-agent-chat" data-arg="'+esc(p.id)+":"+esc(agent.id)+'">Send</button></div>';
+  h += "</div>";
+  return h;
+}
+
+/* ================= Views: more ================= */
+function viewMore(){
+  var p = me();
+  var h = appbar("More");
+  h += '<div class="sec-title">Signed in</div>';
+  h += '<div class="card"><h3>'+esc(p.label)+'</h3><p>'+esc(p.email)+"<br/>Your agent: "+esc(p.agent)+"</p></div>";
+  h += '<div class="sec-title">Install this app</div>';
+  h += '<div class="card"><h3>Install this app</h3><p>On iPhone: open this page in Safari, tap Share, then Add to Home Screen.</p></div>';
+  h += '<div class="sec-title">Partners</div><div class="card">';
+  partnerList().forEach(function(pp){
+    var n = clientsOf(pp.id).length;
+    h += '<div class="kv"><span>'+esc(pp.label)+'</span><b>Agent: '+esc(pp.agent)+" · "+n+" client"+(n===1?"":"s")+"</b></div>";
+  });
+  h += "</div>";
+  h += '<div class="honest"><b>Private staff app</b>Clients never see this. Everything here is live from the Digital Workshop system — nothing is stored on this phone but your sign-in.</div>';
+  h += '<button class="btn btn-ghost" data-act="refresh">Refresh</button>';
+  h += '<button class="btn btn-danger" data-act="sign-out">Sign out</button>';
+  return h;
+}
+
+/* ================= Copy ================= */
+var lastCopy = null; /* { text, ok } — for the headless harness */
+function markCopied(el){
+  if(!el) return;
+  var old = el.textContent;
+  el.textContent = "Copied ✓";
+  setTimeout(function(){ el.textContent = old; }, 2200);
+}
+function copyText(text, el){
+  lastCopy = { text:text, ok:false };
+  function fallback(){
+    var box = document.getElementById("copyFallback");
+    var area = document.getElementById("copyTextArea");
+    if(box && area){ box.style.display = "block"; area.value = text; if(area.select) area.select(); }
+    toast("Copy didn't go through", "The prompt is shown in a box — long-press it to copy.");
+  }
+  if(window.navigator && navigator.clipboard && navigator.clipboard.writeText){
+    return navigator.clipboard.writeText(text).then(function(){
+      lastCopy.ok = true; markCopied(el);
+    }, function(){ fallback(); });
+  }
+  fallback();
+  return Promise.resolve();
+}
+
+/* ================= Render ================= */
+function render(){
+  var y = viewport.scrollTop || 0;
+  var h = "";
+  if(route.name === "loading") h = viewLoading();
+  else if(route.name === "booterror") h = viewBootError();
+  else if(!me()){
+    if(route.name === "setupcode") h = viewSetupCode();
+    else if(route.name === "setuppass") h = viewSetupPassword();
+    else h = viewLogin();
+  }
+  else if(route.name === "today") h = viewToday();
+  else if(route.name === "clients") h = viewClients();
+  else if(route.name === "client"){ var c = clientById(route.param); h = c ? viewClient(c) : viewClients(); }
+  else if(route.name === "newclient") h = viewNewClient();
+  else if(route.name === "codeshown") h = viewCodeShown();
+  else if(route.name === "agents") h = viewAgents();
+  else if(route.name === "agent") h = viewAgent(route.param);
+  else if(route.name === "newagent") h = viewNewAgent();
+  else if(route.name === "recruiter") h = viewRecruiter();
+  else if(route.name === "prospect") h = viewProspect(route.param);
+  else if(route.name === "newprospect") h = viewNewProspect();
+  else if(route.name === "agentchat") h = viewAgentChat(route.param);
+  else if(route.name === "more") h = viewMore();
+  else h = viewToday();
+  viewport.innerHTML = '<div class="view">'+h+"</div>";
+  renderTabbar();
+  viewport.scrollTop = y;
+}
+
+/* ================= Events (delegated) ================= */
+function failToast(head){
+  return function(err){ toast(head, serverMsg(err)); };
+}
+function handleAct(act, arg, el){
+  if(act === "tab"){ goTab(arg); return; }
+  if(act === "seg"){ clientsFilter = arg; render(); return; }
+  if(act === "open-client"){ shownCode = null; go("client", arg); return; }
+  if(act === "back"){ if(!goBack()) goTab(route.name === "agentchat" ? "agents" : "clients"); return; }
+
+  /* ---- auth ---- */
+  if(act === "sign-in"){
+    var em = document.getElementById("si-email"), pw = document.getElementById("si-password");
+    var email = em ? em.value.trim() : "", password = pw ? pw.value : "";
+    loginEmailDraft = email; /* a failed sign-in keeps the email typed in */
+    if(!email || !password){ authError = SIGNIN_ERROR; render(); return; }
+    authError = "";
+    return signIn(email, password).then(function(){
+      authError = ""; navStack = []; route = { name:"today", param:null }; render();
+    }, function(err){
+      clearSession();
+      authError = (err && err.status) ? SIGNIN_ERROR : NET_ERROR;
+      route = { name:"login", param:null }; render();
+    });
+  }
+  if(act === "have-code"){ authError = ""; route = { name:"setupcode", param:null }; render(); return; }
+  if(act === "back-to-login"){ authError = ""; setupDraft = null; route = { name:"login", param:null }; render(); return; }
+  if(act === "check-code"){
+    var cem = document.getElementById("sc-email"), ccd = document.getElementById("sc-code");
+    var cemail = cem ? cem.value.trim() : "", ccode = ccd ? ccd.value.trim() : "";
+    if(!cemail || !ccode){ authError = GENERIC_CODE_ERROR; render(); return; }
+    return checkFounderCode(cemail, ccode).then(function(ok){
+      if(ok){
+        setupDraft = { email:cemail, code:ccode.toUpperCase() };
+        authError = ""; route = { name:"setuppass", param:null }; render();
+      } else {
+        authError = GENERIC_CODE_ERROR; render();
+      }
+    }, failToast("Couldn't check the code"));
+  }
+  if(act === "redeem-code"){
+    var p1 = document.getElementById("sp-pass1"), p2 = document.getElementById("sp-pass2");
+    var pw1 = p1 ? p1.value : "", pw2 = p2 ? p2.value : "";
+    if(!setupDraft){ route = { name:"setupcode", param:null }; render(); return; }
+    if(pw1.length < 6){ authError = "Your password needs at least 6 characters."; render(); return; }
+    if(pw1 !== pw2){ authError = "Those two passwords don't match. Type them again."; render(); return; }
+    return redeemFounderCode(setupDraft.email, setupDraft.code, pw1).then(function(ok){
+      if(ok){
+        setupDraft = null; authError = ""; navStack = []; route = { name:"today", param:null }; render();
+        toast("You're in", "Your founder password is set. Sign in with it from now on.");
+      } else {
+        authError = GENERIC_CODE_ERROR; setupDraft = null; route = { name:"setupcode", param:null }; render();
+      }
+    }, failToast("Couldn't set your password"));
+  }
+  if(act === "sign-out"){
+    return signOut().then(function(){
+      authError = ""; navStack = []; route = { name:"login", param:null }; render();
+    });
+  }
+  if(act === "retry-boot"){ route = { name:"loading", param:null }; render(); return boot(); }
+  if(act === "boot-signout"){ clearSession(); db = null; clientsCache = []; route = { name:"login", param:null }; render(); return; }
+  if(act === "refresh"){
+    return refreshAll().then(function(){ render(); toast("Refreshed", "Everything here is current from the system."); }, failToast("Refresh failed"));
+  }
+
+  /* ---- clients ---- */
+  if(act === "claim"){
+    var p = me();
+    if(!p) return;
+    return claimClientRemote(arg).then(function(){
+      return refreshAll();
+    }).then(function(){
+      toast("Claimed ✓", "She's yours now — founder "+p.label+", agent "+p.agent+".");
+      render();
+    }, failToast("Couldn't claim her"));
+  }
+  if(act === "new-client"){ go("newclient"); return; }
+  if(act === "create-client"){
+    var bizEl = document.getElementById("nc-biz"), ownEl = document.getElementById("nc-owner"), emEl = document.getElementById("nc-email");
+    var biz = bizEl ? bizEl.value.trim() : "", own = ownEl ? ownEl.value.trim() : "", eml = emEl ? emEl.value.trim() : "";
+    if(!biz || !own || !eml || eml.indexOf("@") < 0){ toast("Check the form", "Business name, owner name, and a valid owner email are all needed."); return; }
+    return createClientRemote(biz, own, eml).then(function(r){
+      shownCode = { clientId:r.business_id, code:r.code, mode:"created", expiresAt:Date.now() + 48*3600*1000 };
+      return refreshAll();
+    }).then(function(){
+      go("codeshown", null, true);
+    }, function(err){
+      if(err && err.status === 400 && err.body && /already exists/.test(err.body.message || "")){
+        toast("That email is taken", "An account with that email already exists. Use her other email, or open her page if she's already a client.");
+      } else toast("Couldn't create her", serverMsg(err));
+    });
+  }
+  if(act === "copy-shown-code"){
+    if(shownCode) copyText(shownCode.code, el);
+    return;
+  }
+  if(act === "reissue-code"){
+    return reissueSetupCodeRemote(arg).then(function(r){
+      shownCode = { clientId:arg, code:r.code, mode:"reissued", expiresAt:Date.now() + 48*3600*1000 };
+      go("codeshown", null, true);
+    }, failToast("Couldn't reissue"));
+  }
+  if(act === "set-founder"){
+    var parts = String(arg).split(":"), cid = parts[0], pid = parts[1];
+    var cc = clientById(cid);
+    return updateAssignmentRemote(cid, pid, null).then(function(){ return refreshAll(); }).then(function(){
+      var np = partnerById(pid), nc2 = clientById(cid);
+      toast("Founder changed", (cc ? cc.name : "Client")+" → "+(np ? np.label : "")+" · Agent: "+(nc2 ? (nc2.agent || "—") : "—")+". Her record and chat history travel with her.");
+      render();
+    }, failToast("Couldn't change the founder"));
+  }
+  if(act === "set-agent"){
+    var p2a = String(arg).split(":"), cid2 = p2a[0], agid = p2a.slice(1).join(":");
+    var cc2 = clientById(cid2);
+    if(!cc2) return;
+    return updateAssignmentRemote(cid2, cc2.founderId, agid).then(function(){ return refreshAll(); }).then(function(){
+      var na = agentById(agid);
+      toast("Agent changed", cc2.name+" → "+(na ? na.name : "")+".");
+      render();
+    }, failToast("Couldn't change the agent"));
+  }
+  if(act === "send-reply"){
+    var ta = document.getElementById("replyText");
+    var text = ta ? ta.value.trim() : "";
+    var rc = clientById(arg);
+    if(!rc || !text){ toast("Nothing to send", "Type a reply first."); return; }
+    return sendReplyRemote(rc, text).then(function(){ return refreshAll(); }).then(function(){
+      toast("Reply sent", "It lands in her app labeled with your name.");
+      render();
+    }, failToast("Couldn't send"));
+  }
+  if(act === "dismiss-flag"){
+    return dismissFlagRemote(arg).then(function(){ return refreshAll(); }).then(function(){ render(); }, failToast("Couldn't dismiss"));
+  }
+
+  /* ---- agents ---- */
+  if(act === "open-agent"){
+    agentPageTab = "chat"; removeArmedAgentId = null;
+    go("agent", arg);
+    loadAgentThread(arg).then(function(){ if(route.name === "agent" && route.param === arg) render(); }, function(){});
+    return;
+  }
+  if(act === "agent-tab"){ agentPageTab = arg; render(); return; }
+  if(act === "new-agent"){ go("newagent"); return; }
+  if(act === "job-chip"){
+    var jel = document.getElementById("na-job");
+    if(jel) jel.value = arg;
+    return;
+  }
+  if(act === "create-agent"){
+    var nmEl = document.getElementById("na-name"), jbEl = document.getElementById("na-job");
+    var nm = nmEl ? nmEl.value.trim() : "", jb = jbEl ? jbEl.value.trim() : "";
+    if(!nm){ toast("Give it a name", "Every agent needs a name — Scout, Booker, Wren…"); return; }
+    return createAgentRemote(nm, jb).then(function(){ return refreshAll(); }).then(function(){
+      toast("Agent created", nm + " is on your team. Open her page to copy her prompt and key.");
+      goTab("agents");
+    }, failToast("Couldn't create the agent"));
+  }
+  if(act === "assign-pool"){
+    var pp = String(arg).split(":"), pcid = pp[0], pag = pp.slice(1).join(":");
+    var pme = me();
+    if(!pme) return;
+    return updateAssignmentRemote(pcid, pme.id, pag).then(function(){ return refreshAll(); }).then(function(){
+      var na2 = agentById(pag), ncc = clientById(pcid);
+      toast("Assigned", (ncc ? ncc.name : "Client") + " → " + (na2 ? na2.name : "") + ".");
+      render();
+    }, failToast("Couldn't assign"));
+  }
+  if(act === "make-main"){
+    return setMainAgentRemote(arg).then(function(){ return refreshAll(); }).then(function(){
+      var ma = agentById(arg);
+      toast("Main agent changed", (ma ? ma.name : "Agent") + " is now your Chief of Staff — new clients attach to her.");
+      render();
+    }, failToast("Couldn't change the main agent"));
+  }
+  if(act === "remove-agent"){ removeArmedAgentId = arg; render(); return; }
+  if(act === "remove-agent-cancel"){ removeArmedAgentId = null; render(); return; }
+  if(act === "remove-agent-confirm"){
+    var rag = agentById(arg);
+    return removeAgentRemote(arg).then(function(){ return refreshAll(); }).then(function(){
+      removeArmedAgentId = null;
+      toast("Agent removed", (rag ? rag.name : "The agent") + "'s clients moved to your main agent.");
+      goTab("agents");
+    }, failToast("Couldn't remove the agent"));
+  }
+  if(act === "agent-chat"){
+    var sel2 = parseAgentChatParam(arg);
+    agentPageTab = "chat";
+    go("agent", sel2.agentId);
+    loadAgentThread(sel2.agentId).then(function(){ if(route.name === "agent") render(); }, function(){});
+    return;
+  }
+
+  /* ---- recruiter board ---- */
+  if(act === "open-prospect"){ go("prospect", arg); return; }
+  if(act === "new-prospect"){ go("newprospect"); return; }
+  if(act === "create-prospect"){
+    function gv(id){ var e = document.getElementById(id); return e ? e.value.trim() : ""; }
+    var pname = gv("np-name");
+    if(!pname){ toast("Give it a name", "A prospect needs at least the business name."); return; }
+    var pk = {};
+    if(gv("np-phone")) pk.phone = gv("np-phone");
+    if(gv("np-hours")) pk.hours = gv("np-hours");
+    if(gv("np-services")) pk.services = gv("np-services");
+    if(gv("np-reviews")) pk.reviews = gv("np-reviews");
+    return addProspectRemote(pname, gv("np-city"), gv("np-fit"), pk).then(function(){ return refreshAll(); }).then(function(){
+      toast("On the board", pname + " is in New in — every founder can see it.");
+      goTab("recruiter");
+    }, failToast("Couldn't add the prospect"));
+  }
+  if(act === "prospect-to-cos"){
+    var cp = String(arg).split(":"), pxid = cp[0], pfid = cp.slice(1).join(":");
+    return prospectToCosRemote(pxid, pfid).then(function(){ return refreshAll(); }).then(function(){
+      var tf = partnerById(pfid);
+      toast("Sent to a Chief of Staff", "It's pending with " + (tf ? tf.label + " · " + tf.agent : "the founder") + " now.");
+      render();
+    }, failToast("Couldn't route it"));
+  }
+  if(act === "prospect-auto"){
+    return prospectAutoAssignRemote(arg).then(function(r){ return refreshAll().then(function(){ return r; }); }).then(function(r){
+      var tf2 = r && r.founder_id ? partnerById(r.founder_id) : null;
+      toast("Auto-assigned", "Equal split — it's pending with " + (tf2 ? tf2.label + " · " + tf2.agent : "a Chief of Staff") + ".");
+      render();
+    }, failToast("Couldn't auto-assign"));
+  }
+  if(act === "prospect-employee"){
+    var ep = String(arg).split(":"), exid = ep[0], eag = ep.slice(1).join(":");
+    return prospectAssignEmployeeRemote(exid, eag).then(function(){ return refreshAll(); }).then(function(){
+      var ea = agentById(eag);
+      toast("Assigned", (ea ? ea.name : "The employee") + " owns it now — start to finish.");
+      render();
+    }, failToast("Couldn't assign"));
+  }
+  if(act === "prospect-reject"){
+    return prospectRejectRemote(arg).then(function(){ return refreshAll(); }).then(function(){
+      toast("Rejected", "It's off the active board — reopen it from the Rejected section if that changes.");
+      render();
+    }, failToast("Couldn't reject"));
+  }
+  if(act === "prospect-reopen"){
+    return prospectReopenRemote(arg).then(function(){ return refreshAll(); }).then(function(){
+      toast("Back on the board", "It's in New in again, unassigned.");
+      render();
+    }, failToast("Couldn't reopen"));
+  }
+  if(act === "send-agent-chat"){
+    var sel3 = parseAgentChatParam(arg);
+    var p3 = me();
+    var ata = document.getElementById("agentChatText");
+    var atext = ata ? ata.value.trim() : "";
+    var agent3 = agentById(sel3.agentId);
+    if(!p3 || !agent3 || sel3.founderId !== p3.id || !atext){ toast("Nothing to send", "Type a message first."); return; }
+    return sendAgentChatRemote(agent3, atext).then(function(){ render(); }, failToast("Couldn't send"));
+  }
+  if(act === "copy-master"){ copyText(buildMasterPrompt(), el); return; }
+  if(act === "copy-agent"){
+    var ag = agentById(arg);
+    if(ag){ var fp2 = partnerById(ag.founder_id); copyText(buildAgentPrompt(ag.name, fp2 ? fp2.label : "", null), el); }
+    return;
+  }
+  if(act === "copy-agent-key"){
+    var agk = agentById(arg);
+    if(!agk) return;
+    return generateAgentKeyRemote(agk.id).then(function(r){
+      var fpk = partnerById(agk.founder_id);
+      return copyText(buildAgentPrompt(agk.name, fpk ? fpk.label : "", r.api_key), el);
+    }).then(function(){
+      toast("Prompt copied — with a fresh key", "The old key for "+agk.name+" no longer works. This copy is the whole handoff; keep it private.");
+    }, failToast("Couldn't issue a key"));
+  }
+  if(act === "revoke-key"){
+    var agr = agentById(arg);
+    if(!agr) return;
+    return revokeAgentKeyRemote(agr.id).then(function(){
+      toast("Key revoked", agr.name+"'s API key no longer works. Copy a full prompt with key to issue a fresh one.");
+    }, failToast("Couldn't revoke"));
+  }
+
+  /* ---- delete: no founder delete path exists in the back end ---- */
+  if(act === "delete-client"){ deleteArmedId = arg; render(); return; }
+  if(act === "delete-cancel"){ deleteArmedId = null; render(); return; }
+}
+viewport.addEventListener("click", function(e){
+  var t = e.target;
+  while(t && t !== viewport && !(t.getAttribute && t.getAttribute("data-act"))) t = t.parentNode;
+  if(t && t !== viewport && t.getAttribute){
+    var act = t.getAttribute("data-act");
+    if(act) handleAct(act, t.getAttribute("data-arg"), t);
+  }
+});
+tabbar.addEventListener("click", function(e){
+  var t = e.target;
+  while(t && t !== tabbar && !(t.getAttribute && t.getAttribute("data-act"))) t = t.parentNode;
+  if(t && t !== tabbar && t.getAttribute){
+    var act = t.getAttribute("data-act");
+    if(act) handleAct(act, t.getAttribute("data-arg"), t);
+  }
+});
+
+/* ================= Boot =================
+   The old on-device store is retired unread — a signed-out phone shows
+   only the sign-in and setup screens, never the old sample data. */
+function boot(){
+  try{ localStorage.removeItem(OLD_LS_KEY); }catch(e){}
+  loadSession();
+  if(!session){ route = { name:"login", param:null }; render(); return Promise.resolve(false); }
+  route = { name:"loading", param:null }; render();
+  return refreshAll().then(function(){
+    if(!me()){
+      /* The token no longer resolves to a founder — it's done. */
+      clearSession(); db = null; clientsCache = [];
+      authError = "Your sign-in has expired. Sign in again.";
+      route = { name:"login", param:null }; render();
+      return false;
+    }
+    route = { name:"today", param:null }; render();
+    return true;
+  }, function(){
+    route = { name:"booterror", param:null }; render();
+    return false;
+  });
+}
+var bootPromise = boot();
+</script>
+</body>
+</html>
